@@ -146,7 +146,10 @@ def make_key(company: str, title: str, url: str = "") -> str:
             # is left to key on.
             digest_basis = str(url) if url else str(title)
             digest = hashlib.sha1(digest_basis.encode("utf-8")).hexdigest()[:HASH_LEN]
-            title_slug = f"{fragment or basis or 'untitled'}-{digest}"
+            # A lossy fragment needs the digest to tell two postings apart; an
+            # empty title keeps the bare basis (a URL-derived slug, or
+            # "untitled-<hash>") exactly as before the fragment rule existed.
+            title_slug = f"{fragment}-{digest}" if fragment else (basis or f"untitled-{digest}")
     return f"{company_slug}_{title_slug}"
 
 
@@ -180,9 +183,17 @@ def audit(path: Path) -> int:
     except (OSError, json.JSONDecodeError) as exc:
         print(f"cannot read {path}: {exc}", file=sys.stderr)
         return 1
-    seen = doc.get("seen", doc)
+    seen = doc.get("seen", doc) if isinstance(doc, dict) else doc
     if not isinstance(seen, dict):
         print(f"{path}: expected an object of job entries", file=sys.stderr)
+        return 1
+    not_objects = [k for k, v in seen.items() if not isinstance(v, dict)]
+    if not_objects:
+        print(f"{path}: entry is not an object: {not_objects[0]}", file=sys.stderr)
+        return 1
+    bad_url = [k for k, v in seen.items() if v.get("url") is not None and not isinstance(v["url"], str)]
+    if bad_url:
+        print(f"{path}: entry url is not a string: {bad_url[0]}", file=sys.stderr)
         return 1
 
     malformed = [k for k in seen if not is_canonical(k) and not is_legacy_shape(k)]
