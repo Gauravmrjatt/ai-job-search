@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** TypeScript/JavaScript, Next.js, React, Node.js, Express.js, REST APIs, PostgreSQL, Prisma, WebSockets/Socket.IO, payment integrations (Razorpay), Redis, RabbitMQ, Docker, CI/CD, full-stack product delivery
+**Moderate match areas:** MongoDB, MySQL, GraphQL, AWS EC2/Linux, NGINX, monitoring (Prometheus/Grafana/Loki/Sentry), Java, Python, PHP, Firebase/Auth0
+**Weak match areas:** Kubernetes and cloud-native orchestration (Docker/EC2 only), mobile native development (iOS/Android), ML/AI engineering, Java enterprise stacks (Spring), senior/architect-level experience claims (freelance project scope, not enterprise team tenure)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Full-stack web product delivery (freelance, end-to-end: logistics platform, real-time quiz platform, affiliate tracking), payments/money-movement integrations, real-time & high-concurrency systems, solo ownership through deployment
+**Moderate:** DevOps/cloud (Docker, GitHub Actions, AWS EC2, Linux, monitoring), backend API design, database schema design at scale
+**Entry-level:** Formal in-house team roles (all experience is freelance/contract, so enterprise process, code review culture, and long-cycle team delivery are untested); ML/AI, mobile native, enterprise Java
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,9 +91,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Within commute range (Mathura, Delhi NCR): PASS
+- Remote (India or international): PASS
+- Requires relocation within India (Bangalore, Pune, Hyderabad, Mumbai, etc.): PASS — candidate is open to relocation; note the city in the report
+- Onsite outside India: FLAG — no work-permit basis recorded; discuss with the user
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a full-time Full-Stack / Backend / Software Engineer role shipping production systems (Next.js/Node.js or equivalent)
+- Grow from delivery into system design and tech-lead scope, with deeper cloud & DevOps ownership
+- Join a collaborative team where work reaches real users, in a product domain (fintech/payments, logistics, real-time)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: building and shipping features end-to-end, payments/reliability/correctness problems, real-time and high-concurrency systems, setting up CI/CD and observability, visible product impact
+- Tasks that drain: maintenance-only work with no new development, slow bureaucratic delivery loops, work with no visibility into deployment/production
+- Non-task factors: collaborative/synchronous team culture, autonomy in how work gets done, clear priorities, pragmatic delivery pace
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Base salary floor of ₹6-7 LPA; flexible above that for the right role and growth
+- **Flexibility**: Open to relocation for the right role; remote India acceptable; prefers collaborative, synchronous working rhythm
+- **Professional development**: Deepen system design, cloud/DevOps, and backend architecture; grow toward senior/lead scope
 
 ### 6. Salary Benchmark (Optional)
 

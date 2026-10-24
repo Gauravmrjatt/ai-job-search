@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - airSlate, Middle Full Stack Developer (Node.js/React)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://github.com/Gauravmrjatt}{GitHub} | \href{https://gauravmrjatt.vercel.app}{Portfolio}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear airSlate hiring team,}
+
+\lettercontent{I am applying for the Middle Full Stack Developer (Node.js/React) role with the pdfFiller team. For over three years I have delivered production full-stack systems on my own for clients, owning each feature from the first requirements conversation through PostgreSQL schema, Express.js services, React dashboards, deployment, and the monitoring that follows release. Your posting asks for that same ownership weighted toward the backend, which is where my work already sits.}
+
+\lettercontent{What draws me to this role is the engineering culture the posting describes: engineers propose improvements instead of executing tickets, the roadmap is planned a year ahead, an educational budget, and knowledge-sharing sessions. airSlate's own arc, first PDF editor build in 2008, a product portfolio past 100 million users, is a product cycle I have never worked inside. After over three years of solo client delivery it is exactly the setting I want next: peers to review against, and features refined over years rather than handed over and left.}
+
+\lettercontent{How my work maps to the role:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{End-to-end features:} logistics platform taken from requirements to production (Next.js, TypeScript, Express.js, Prisma, PostgreSQL), 1,000+ orders processed, including payment, webhook, and payout flows.
+    \item \textbf{Production monitoring:} Prometheus, Grafana, and Loki dashboards and alerting on the Lead Tracking System, live since 2024 and still maintained by me.
+    \item \textbf{Automated quality and delivery:} GitHub Actions CI/CD with automated tests; Docker-based deployment from commit to server.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{One gap, stated plainly: I have not shipped LangGraph, RAG, or LLM evaluation work in production. I am moving toward that work deliberately; Claude Code is my daily development tool; and the foundation an LLM feature needs is one I already have: typed Node.js and React, automated tests, and watching what happens after release. The team habits your posting names, reviewing changes with clients before they ship, documenting API contracts for integrators, proposing fixes to legacy code, are habits I already keep at client scale.}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

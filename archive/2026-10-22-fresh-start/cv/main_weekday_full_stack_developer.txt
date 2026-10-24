@@ -1,0 +1,95 @@
+                          Gaurav Chaudhary
+                                             Mathura, Uttar Pradesh, India
+                              MOBILE-ANDROID-ALT +91-8077598311 • 🖂 gauravmrjatt4@gmail.com
+                                               LinkedIn, GitHub, Portfolio
+
+
+
+Full-Stack Developer with over three years of remote freelance production delivery: React and Next.js interfaces with
+TypeScript, REST APIs in Node.js and Express, and SQL and document databases, with Python from a core CS and
+scripting background. Ships products end to end with AI-assisted development: schema and API design, GitHub
+Actions CI/CD, deployment, monitoring, and direct client support on platforms with live users, including CodeLab,
+Data Vault, and Earning Area. B.Tech CSE (in progress, expected 2027).
+
+Core Competencies
+🟤 ReactJS & Web Applications: React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Material UI
+    - interfaces for logistics, real-time quiz, and affiliate-tracking platforms.
+🟤 Python & Programming Principles: Python, Java, SQL, PHP from core CS and scripting work; DSA foundation
+    (LeetCode 1,430 contest rating); OOP, DBMS, and systems coursework.
+🟤 REST APIs & Databases: Node.js, Express, REST, GraphQL, WebSockets; PostgreSQL, MongoDB, MySQL,
+    Redis with Prisma and Mongoose - schema design for orders, ledgers, commissions, and leads.
+🟤 Payments & Integrations: Razorpay (signature verification, wallets, payouts, refunds), Shiprocket, Firebase
+    OTP, webhook and postback processing, KYC-gated orders.
+🟤 Product Ownership: builds and runs own live products (CodeLab, Data Vault, Earning Area) alongside client
+    platforms, from requirements through production support; AI-assisted development with Claude Code.
+🟤 CI/CD & Observability: Git, GitHub Actions, Docker, AWS EC2, NGINX, Linux; Prometheus, Grafana, Loki,
+    Sentry - automated delivery and production monitoring.
+
+Professional Experience
+    Cashbackwallah                                                                         Remote / client project
+🟤
+    Freelance Full-Stack Developer                                                              Jan 2026 - Aug 2026
+    - Built and deployed a production logistics platform from scratch (Next.js, React, TypeScript, Express.js, Prisma,
+      PostgreSQL): courier rate comparison, shipment booking, order management, and a multi-level franchise commis-
+      sion system - 1,000+ orders processed.
+    - Integrated Shiprocket, Razorpay, Firebase OTP, Redis, and Sentry: payment signature verification, wallet and
+      transaction ledger, KYC-gated orders, automated payouts, webhook processing, scheduled refund workflows.
+    - Handled end-to-end deployment and DevOps for the platform, including production monitoring with Sentry.
+    - Worked directly with the client on requirements and production issues. Demo: cashbackwallah.com
+    Dream10.in                                                                                Remote / client project
+🟤
+    Freelance Full-Stack Developer                                                                Mar 2025 - Nov 2025
+    - Shipped a production real-time quiz platform to partners (Next.js, React, Node.js, Redis, RabbitMQ, WebSockets):
+      live leaderboards, anti-cheat mechanisms, automated payment and payout processing.
+    - Built fault-tolerant services for high-concurrency event handling and managed CI/CD deployment, including Redis
+      and RabbitMQ-based processing and real-time WebSocket communication. Demo: dream10.in
+    Lead Tracking System                                                                     Remote / client project
+🟤
+    Freelance Full-Stack Developer (Ongoing Maintenance)                                           May 2023 - Present
+    - Built a production affiliate lead-tracking platform in 2023, still maintained and extended on demand: real-time
+      dashboards, automated fraud detection, webhook and postback handling, payment processing, Telegram alerts,
+      and role-based access control.
+    - Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; implemented production monitoring
+      with Prometheus, Grafana, and Loki. Demo: panel5.logicpay.in
+    - Continue to own it as a live client engagement: resolving production issues and shipping extensions on request.
+Independent Projects
+    Independent project
+🟤
+    CodeLab                                                                                             Jun 2025
+    - Collaborative coding platform (Next.js, React, Node.js, Express, Docker, Yjs CRDT, WebSockets): real-time
+      multi-user editing, invite-based collaboration, contest timers, and testcase management.
+    - Docker-sandboxed code execution service with customizable coding rooms. Demo: codelab.logicpay.in
+    Independent project
+🟤
+    Data Vault                                                                                        Mar 2025
+    - Privacy-focused file manager (Next.js, Node.js, MongoDB, Telegram Bot API): chunk-based encrypted storage
+      with resumable uploads.
+    - Secure file sharing with search, pagination, and folder organization.
+    Independent project
+🟤
+    Earning Area                                                                                        Aug 2021
+    - Gamified rewards platform (PHP, MySQL, Paytm API): task-based earnings, referral system, scratch cards, and
+      automated reward distribution.
+    - First end-to-end payment integration built, including payouts through Paytm and OpenMoney. Demo:
+      earningarea.org
+
+Education
+    GLA University                                                                               Mathura, India
+🟤
+    B.Tech in Computer Science and Engineering                                                         2023-2027
+    In progress, expected 2027. Key topics: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer
+    Networks.
+
+Languages
+🟤 Hindi (native), English (professional working proficiency).
+
+Honors and Awards
+🟤 Finalist - WebX Frontend Challenge (2024).
+🟤 4th place - WebForge (2025).
+🟤 4th place - Code Arambh (2024).
+🟤 AWS Cloud Computing - certification, JOVAC (2025).
+🟤 LeetCode - 1,430 contest rating.
+
+References
+🟤 More references are available upon request.
+

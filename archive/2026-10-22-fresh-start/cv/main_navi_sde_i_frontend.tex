@@ -1,0 +1,188 @@
+%% Tailored CV - Gaurav Chaudhary
+%% Target: SDE I (Frontend) / UI Engineer I at Navi, Bengaluru (on-site)
+%% Compile with: lualatex main_navi_sde_i_frontend.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+% Default banking leaves them black: moderncvstylebanking.sty's \colorlet
+% copies (not aliases) the pre-scheme accent colour, so the name colours are
+% frozen before \moderncvcolor runs. Re-let them after. \namefont is the hook
+% every name-style macro routes through, so this also works on moderncv 2.3.1
+% (Debian/Ubuntu apt), which has no \firstnamestyle/\lastnamestyle at all.
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV - SDE I (Frontend)},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% Personal data
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\phone[mobile]{+91-8077598311}
+\email{gauravmrjatt4@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}, \href{https://github.com/Gauravmrjatt}{GitHub}, \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Frontend developer with over three years of freelance production delivery: React and Next.js interfaces in JavaScript (ES6+) and TypeScript, hooks-based component architecture, client and server state with Zustand and TanStack Query, and performance work on data-heavy views such as live leaderboards and real-time dashboards. Ships user-facing systems end to end, supported by the Node.js APIs those interfaces consume. B.Tech CSE (expected 2027) with a strong DSA foundation (LeetCode 1,430 contest rating).}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{React \& JavaScript (ES6+)}: React, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3 - component-based interfaces built, maintained, and shipped to production.
+
+\item \textbf{Component Architecture \& State}: hooks, props, state, and data flow across reusable component systems for order, quiz, and dashboard screens; client and server state handled with Zustand and TanStack Query.
+
+\item \textbf{Performance \& Production Debugging}: performance work on data-heavy frontend views (live leaderboards, real-time dashboards); frontend issues debugged in the browser with devtools, live UI errors surfaced and fixed with Sentry monitoring.
+
+\item \textbf{Real-Time Interfaces}: WebSocket-driven UI that stays responsive under high-concurrency event traffic (live quiz leaderboards, real-time tracking dashboards).
+
+\item \textbf{Backend (secondary)}: Node.js, Express.js, REST, PostgreSQL, MongoDB, Redis - the APIs and data layers behind my interfaces, built when the frontend needs them.
+
+\item \textbf{Delivery \& Tooling}: Git, CI/CD, Docker, clean and maintainable code, iterative milestone-based delivery with clients, Claude Code in the build-and-debug workflow.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\item{\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{Cashbackwallah}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built and deployed the production logistics frontend from scratch (Next.js, React, TypeScript, Tailwind CSS): courier rate comparison, shipment booking, order management, and multi-level franchise commission views - 1,000+ orders processed.}
+    \item {Integrated third-party services into the React UI (Shiprocket, Razorpay, Firebase OTP): wallet and transaction ledger views, KYC-gated order flows, webhook-driven shipment status updates.}
+    \item {Delivered responsive, reusable components across order, shipment, and admin screens; tracked and fixed live UI errors with Sentry.}
+    \item {Owned end-to-end delivery and deployment (GitHub Actions CI/CD, Docker, AWS EC2, NGINX). Demo: cashbackwallah.com}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\item{\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{Dream10.in}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Shipped a production real-time quiz interface to partners (Next.js, React, WebSockets): live leaderboards updating under event traffic, anti-cheat flows, and payment and payout screens.}
+    \item {Built the fault-tolerant backend services behind the interface and managed CI/CD deployment. Demo: dream10.in}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{Lead Tracking System}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built an affiliate lead-tracking platform (2023), maintained and extended since: real-time dashboards, fraud-detection views, webhook and postback handling, role-based access control.}
+    \item {Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; kept live dashboards observable with Prometheus, Grafana, and Loki. Demo: panel5.logicpay.in}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Jun 2025}{CodeLab}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Collaborative coding platform (Next.js, React, Yjs CRDT, WebSockets): real-time multi-user editing, customizable coding room layouts, and contest timers.}
+    \item {Docker-sandboxed code execution with testcase and contest management.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Mar 2025}{Data Vault}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Privacy-focused file manager (Next.js, React, Node.js, MongoDB, Telegram Bot API): chunk-based encrypted storage, resumable uploads, secure file sharing, search, and pagination.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Aug 2021}{Earning Area}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Gamified rewards platform (PHP, MySQL, Paytm API): task-based earnings, referral system, scratch cards, and automated reward distribution - my first end-to-end payment integration.}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2023-2027}{B.Tech in Computer Science and Engineering}{GLA University}{Mathura, India}{}{\vspace{1pt}
+In progress, expected 2027. Key topics: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item {Hindi (native), English (professional working proficiency) - the working language for CVs, cover letters, code, and client communication.}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{Finalist} - WebX Frontend Challenge (2024).}
+\item{\textbf{4th place} - WebForge (2025); \textbf{4th place} - Code Arambh (2024).}
+\item{\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{More references are available upon request.}
+\end{itemize}
+
+\end{document}

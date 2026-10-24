@@ -1,0 +1,210 @@
+%% Tailored CV - Gaurav Chaudhary
+%% Target: React or Node Developer at HackerKernel
+%% Compile with: lualatex main_hackerkernel_react_or_node_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+% Default banking leaves them black: moderncvstylebanking.sty's \colorlet
+% copies (not aliases) the pre-scheme accent colour, so the name colours are
+% frozen before \moderncvcolor runs. Re-let them after. \namefont is the hook
+% every name-style macro routes through, so this also works on moderncv 2.3.1
+% (Debian/Ubuntu apt), which has no \firstnamestyle/\lastnamestyle at all.
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+% pdflatex fallback only (the documented engine is lualatex, which skips this
+% branch). Without T1 font encoding pdflatex builds accented letters with
+% \accent, and the PDF text layer stores them decomposed - `e` + U+0300 rather
+% than U+00E8 - so an ATS keyword match on "Genève" fails while the page looks
+% right. moderncv 2.5 loads T1 itself under pdflatex; 2.3.1 (Debian/Ubuntu apt)
+% does not. \ifpdftex comes from iftex, which every moderncv version loads.
+\ifpdftex\usepackage[T1]{fontenc}\fi
+% moderncv loads hyperref itself in an \AtEndPreamble hook, so \hypersetup
+% must go in an \AtEndPreamble of our own: on moderncv < 2.4 a top-level
+% \usepackage{hyperref} clashes with the class's own
+% \RequirePackage[unicode]{hyperref}. From 2.4.0 the class passes its options
+% through \PassOptionsToPackage instead, which is what removes that clash.
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV - React or Node Developer},
+    % Keep pdfpagemode=UseNone: this block runs after moderncv's own
+    % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
+    % value here would win and open every CV in fullscreen presentation mode.
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% Personal data
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\phone[mobile]{+91-8077598311}
+\email{gauravmrjatt4@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}, \href{https://github.com/Gauravmrjatt}{GitHub}, \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Full-Stack Developer delivering production systems in React and Node.js: responsive React and Next.js front-ends in TypeScript and modern JavaScript, and Express.js back-ends with RESTful APIs, third-party integrations, and SQL/NoSQL schema design. Over three years of freelance delivery owning platforms end to end: client requirements, architecture, deployment, and monitoring. B.Tech CSE (expected 2027) with a strong DSA foundation (LeetCode 1,430 contest rating).}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{React Front-End Development}: React, Next.js, TypeScript, Tailwind CSS, Material UI - responsive production interfaces across logistics, quiz, and affiliate-tracking platforms.
+
+\item \textbf{Node.js Back-End Development}: Node.js, Express.js, RESTful APIs, JSON - server-side services plus third-party integrations (Razorpay, Shiprocket, Firebase OTP, Telegram Bot API) and webhook processing.
+
+\item \textbf{Advanced JavaScript}: ES6+ (modules, async/await, closures) and TypeScript as the primary language across freelance delivery.
+
+\item \textbf{State Management}: Zustand, TanStack Query - client state, server caching, and API contracts across React applications.
+
+\item \textbf{Databases \& Schema Design}: PostgreSQL, MongoDB, MySQL with Prisma and Mongoose; relational and NoSQL schema design for orders, wallets, and commissions.
+
+\item \textbf{Performance \& Responsive Design}: WebSockets/Socket.IO and Redis-backed data flows - live dashboards and leaderboards that stay responsive under concurrent load.
+
+\item \textbf{Clean Code \& Version Control}: Git, GitHub Actions CI/CD, Docker - maintainable, versioned code with deployment owned end to end.
+
+\item \textbf{AI-Augmented Development}: Claude Code as part of the development workflow - code generation, testing, and debugging.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\item{\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{Cashbackwallah}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built and deployed a production logistics platform from scratch (Next.js, React, TypeScript, Express.js, PostgreSQL with Prisma): courier rate comparison, shipment booking, order management, and a multi-level franchise commission system - 1,000+ orders processed.}
+    \item {Designed the relational schema and REST API layer for orders, wallets, and commissions, and integrated Shiprocket, Razorpay, Firebase OTP, Redis, and Sentry: payment signature verification, KYC-gated orders, automated payouts, webhook processing, scheduled refund workflows.}
+    \item {Owned customer-facing React flows responsively: KYC-gated order placement, wallet and transaction views, payout and refund screens, webhook-driven status updates.}
+    \item {Worked directly with the client on scope and milestones; handled end-to-end deployment and DevOps for the platform. Demo: cashbackwallah.com}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\item{\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{Dream10.in}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Shipped a production real-time quiz platform to partners (Next.js, React, Node.js, Redis, RabbitMQ, WebSockets): live leaderboards, anti-cheat mechanisms, automated payment/payout processing.}
+    \item {Built fault-tolerant Node.js services for high-concurrency event handling and real-time WebSocket communication; managed CI/CD deployment. Demo: dream10.in}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{Lead Tracking System}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built an affiliate lead-tracking platform (2023), still maintained and extended on demand: real-time dashboards, automated fraud detection, webhook/postback handling, payment processing, Telegram alerts, role-based access control.}
+    \item {Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; implemented production monitoring with Prometheus, Grafana, and Loki. Demo: panel5.logicpay.in}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Jun 2025}{CodeLab}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Collaborative coding platform (Next.js, Node.js, Express, Docker, Yjs CRDT, WebSockets): real-time multi-user editing, invite-based collaboration, contest timers, and testcase management.}
+    \item {Docker-sandboxed code execution service with customizable coding rooms. Demo: codelab.logicpay.in}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Mar 2025}{Data Vault}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Privacy-focused file manager (Next.js, Node.js, MongoDB, Telegram Bot API): chunk-based encrypted storage, resumable uploads, and Telegram-backed distributed storage.}
+    \item {Secure file sharing with search, pagination, and folder organization. Demo: datavault-two.vercel.app}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Aug 2021}{Earning Area}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Gamified rewards platform (PHP, MySQL, Paytm API): task-based earnings, referral system, scratch cards, and automated reward distribution.}
+    \item {First end-to-end payment integration built, including payouts through Paytm and OpenMoney. Demo: earningarea.org}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2023-2027}{B.Tech in Computer Science and Engineering}{GLA University}{Mathura, India}{}{\vspace{1pt}
+In progress, expected 2027. Key topics: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item {Hindi (native), English (professional working proficiency).}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{Finalist} - WebX Frontend Challenge.}
+\item{\textbf{4th place} - WebForge.}
+\item{\textbf{4th place} - Code Arambh.}
+\item{\textbf{AWS Cloud Computing Certification} - JOVAC (2025), GLA University.}
+\item{\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{More references are available upon request.}
+\end{itemize}
+
+\end{document}

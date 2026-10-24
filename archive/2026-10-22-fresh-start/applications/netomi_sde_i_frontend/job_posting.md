@@ -1,0 +1,42 @@
+# Netomi - SDE I - Frontend
+
+- URL: https://www.lets-code.co.in/job/6a42b5de4967b5d643cfcab5/ (lets-code.co.in catalogue; job id 6a42b5de4967b5d643cfcab5)
+- Apply route: https://jobs.lever.co/netomi/cdeaeaff-68e0-4889-8bb6-a3b5e4a0819b (Lever ATS)
+- Location: Full Time - Remote 
+- Employment type: Full-Time | Experience band: 1+ years | Salary: 18-20 LPA
+- Archived: 2026-10-22 (source: lets-code-search detail 6a42b5de4967b5d643cfcab5)
+
+## Posting text (verbatim)
+
+About the Company:
+
+Netomi is the leading agentic AI platform for enterprise customer experience. We work with the largest global brands like Delta Airlines, MetLife, MGM, United, and others to enable agentic automation at scale across the entire customer journey. Our no-code platform delivers the fastest time to market, lowest total cost of ownership, and simple, scalable management of AI agents for any CX use case. Backed by WndrCo, Y Combinator, and Index Ventures, we help enterprises drive efficiency, lower costs, and deliver higher quality customer experiences.
+
+Want to be part of the AI revolution and transform how the world’s largest global brands do business? Join us!
+
+About the Role:
+
+We are looking for a Software Engineer with experience in Javascript. Who brings in experience of coding, fixing, executing and versioning existing code for applications and someone who is ready to think beyond and is ready to take bigger responsibilities.
+
+If you're passionate to solve real time fundamental problems, explore, learn and work on technologies out of scope, Netomi is the perfect place for you.
+
+Responsibilities
+- Ownership of key UI modules
+- Own front-end build and test systems
+- Ensure the technical feasibility of UI/UX designs and implement them.
+- Translating designs and wireframes into high-quality code
+- Building reusable components and front-end libraries for future use
+- Working with Backend, Data Science and DevOps engineers for API implementation and design.
+- Optimize UI application for optimal performance and scalability
+-
+
+Requirements
+
+- 1 year to 3 years experience in building UI heavy features, preferably for a highly used B2B SaaS application
+- Mastery of JavaScript or TypeScript, HTML5 and CSS3
+- Excellent hands-on experience with Vue.js (or React or Angular)
+- Great knowledge of common web services technologies such as GraphQL, REST and Web Hooks.
+- Knowledge of NodeJS as a backend for web applications is a plus
+- B.E. or B.Tech in Computer Science or related fields
+
+Netomi is an equal opportunity employer committed to diversity in the workplace. We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, disability, veteran status, and other protected characteristics.

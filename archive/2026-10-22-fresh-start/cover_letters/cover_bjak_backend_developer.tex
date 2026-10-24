@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Bjak, Backend Developer (Remote, India)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://github.com/Gauravmrjatt}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{\textbf{Application: Backend Developer (Remote, India)}}
+
+\lettercontent{Dear Bjak Hiring Team,}
+
+\lettercontent{Your posting sets the bar for this role itself: APIs, databases, authentication, queues, jobs, events, and integrations in real production systems, with a debugging, reliability, and data-quality mindset. Over three years of freelance work, every platform I shipped ran in production in exactly those areas, with payment integrations at the center.}
+
+\lettercontent{How my experience maps to what you will own:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Payments and money movement through production APIs:} on Cashbackwallah, a logistics platform that has processed 1,000+ orders, I built Razorpay signature verification, a wallet and transaction ledger, KYC-gated orders, automated payouts, and scheduled refunds.
+    \item \textbf{Webhook-driven order and integration flows:} payment webhooks, courier and OTP providers, and postback handling with fraud detection on a lead-tracking platform.
+    \item \textbf{Queues, jobs, and events:} Redis, RabbitMQ, and Node.js Cluster powering background jobs and high-concurrency event handling across three production platforms.
+    \item \textbf{Reliability, debugging, and data quality:} ledger-consistent PostgreSQL and MongoDB schema design, automated fraud detection, and live monitoring with Sentry, Prometheus, and Grafana.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I am drawn to what Bjak builds: started in 2019 and headquartered in Malaysia, it became the leading insurance platform in Southeast Asia with over 9 million users, is BNM-approved, and is building the AI Neobank app. Backend services for onboarding, payments, KYC, and risk are the class of problem I have handled for paying customers: money movement and integrations where correctness is not optional.}
+
+\lettercontent{As a freelance one-person team, I own APIs, databases, deployment, monitoring, and production debugging and fixes myself, making the speed, correctness, and scalability trade-offs your posting asks for; within Bjak's teams, that ownership would go behind shared reviews and faster-moving requirements.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, India, and remote delivery is how all of my production work has been done; given Bjak's fast interview process, I can complete an assessment quickly. I look forward to hearing from you.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

@@ -1,0 +1,190 @@
+%% Tailored CV - Gaurav Chaudhary
+%% Target: Retool / Full-Stack Developer at Zephico Technologies
+%% Compile with: lualatex main_zephico_retool_full_stack_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+% Default banking leaves them black: moderncvstylebanking.sty's \colorlet
+% copies (not aliases) the pre-scheme accent colour, so the name colours are
+% frozen before \moderncvcolor runs. Re-let them after. \namefont is the hook
+% every name-style macro routes through, so this also works on moderncv 2.3.1
+% (Debian/Ubuntu apt), which has no \firstnamestyle/\lastnamestyle at all.
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV - Retool Full-Stack Developer},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% Personal data
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\phone[mobile]{+91-8077598311}
+\email{gauravmrjatt4@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}, \href{https://github.com/Gauravmrjatt}{GitHub}, \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Full-Stack Developer (React, Next.js, Node.js, TypeScript, PostgreSQL) who builds the internal tooling operations teams work in every day: dashboards, admin panels, role-based access, webhook and payment flows, running in production. Over three years of freelance delivery, maintaining an affiliate lead-tracking platform since 2023 while shipping logistics and real-time quiz products for clients I work with directly. B.Tech CSE (in progress, expected 2027).}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Internal Tools \& Dashboards}: real-time dashboards, role-based access control, audit-style fraud-detection logging, webhook postbacks, and Telegram alerting on the Lead Tracking platform, maintained in production since 2023.
+
+\item \textbf{SQL \& JavaScript}: PostgreSQL (Prisma), MySQL, MongoDB, and Redis; JavaScript and TypeScript as primary languages across REST, GraphQL, and WebSocket APIs.
+
+\item \textbf{React \& Next.js}: React, Next.js, Tailwind CSS, Material UI, Zustand, TanStack Query - internal dashboards and full customer-facing applications in production.
+
+\item \textbf{Approval \& Payment Flows}: KYC-gated orders, automated payouts, scheduled refund workflows, and wallet ledgers with Razorpay signature verification.
+
+\item \textbf{Backend \& Real-Time}: Node.js, Express.js, RabbitMQ, Redis, and Node.js Cluster for background processing and high-concurrency event handling.
+
+\item \textbf{CI/CD \& Observability}: Docker, GitHub Actions, AWS EC2, NGINX, Linux; Prometheus, Grafana, Loki, Sentry. AI-assisted development with Claude Code.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\item{\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{Cashbackwallah}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built and deployed a production logistics platform from scratch (Next.js, React, TypeScript, Express.js, Prisma, PostgreSQL): courier rate comparison, shipment booking, an order-management console, and a multi-level franchise commission system - 1,000+ orders processed.}
+    \item {Integrated Shiprocket, Razorpay, Firebase OTP, Redis, and Sentry: payment signature verification, wallet and transaction ledger, KYC-gated orders, automated payouts, webhook processing, scheduled refund workflows.}
+    \item {Handled end-to-end deployment and DevOps for the platform, including production monitoring with Sentry.}
+    \item {Worked directly with the client on requirements and production issues. Demo: \href{https://cashbackwallah.com}{cashbackwallah.com}}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\item{\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{Dream10.in}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Shipped a production real-time quiz platform to partners (Next.js, React, Node.js, Redis, RabbitMQ, WebSockets): live leaderboards, anti-cheat mechanisms, automated payment and payout processing.}
+    \item {Built fault-tolerant services for high-concurrency event handling and managed CI/CD deployment, including Redis and RabbitMQ-based processing and real-time WebSocket communication. Demo: \href{https://dream10.in}{dream10.in}}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Ongoing Client Platform (internal tooling) ---
+\needspace{10\baselineskip}
+\item{\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{Lead Tracking System}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built a production affiliate lead-tracking platform in 2023 and still maintain and extend it: real-time operations dashboards, role-based access control, automated fraud-detection logging, webhook and postback handling, payment processing, and Telegram alerts.}
+    \item {Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; implemented production monitoring with Prometheus, Grafana, and Loki. Demo: \href{https://panel5.logicpay.in}{panel5.logicpay.in}}
+    \item {Continue to own it as a live client engagement: resolving production issues and shipping extensions on request.}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Jun 2025}{CodeLab}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Collaborative coding platform (Next.js, React, Node.js, Express, Docker, Yjs CRDT, WebSockets): real-time multi-user editing, coding rooms, contest and testcase management, invite-based collaboration.}
+    \item {Docker-sandboxed code execution with contest timers and customizable layouts. Demo: \href{https://codelab.logicpay.in}{codelab.logicpay.in}}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Mar 2025}{Data Vault}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Privacy-focused file manager (Next.js, Node.js, MongoDB, Telegram Bot API): chunk-based encrypted storage with resumable uploads, secure sharing, search, pagination, and folder organization. Demo: \href{https://datavault-two.vercel.app}{datavault-two.vercel.app}}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Aug 2021}{Earning Area}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Gamified rewards platform (PHP, MySQL, Paytm API): task-based earnings, referral system, and automated reward distribution; first end-to-end payment integration. Demo: \href{https://earningarea.org}{earningarea.org}}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2023-2027}{B.Tech in Computer Science and Engineering}{GLA University}{Mathura, India}{}{\vspace{1pt}
+In progress, expected 2027. Key topics: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item {Hindi (native), English (professional working proficiency).}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{Finalist} - WebX Frontend Challenge (2024).}
+\item{\textbf{4th place} - WebForge (2025); \textbf{4th place} - Code Arambh (2024).}
+\item{\textbf{AWS Cloud Computing} - certification, JOVAC (2025).}
+\item{\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{More references are available upon request.}
+\end{itemize}
+
+\end{document}

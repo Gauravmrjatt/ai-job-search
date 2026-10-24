@@ -1,6 +1,6 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- SETUP: Populated by /setup for Gaurav Chaudhary - Full-Stack / Backend / DevOps, India -->
 
 ## Installed portal CLIs (primary for `/scrape`)
 
@@ -8,77 +8,93 @@
 
 The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
 
-**Language scope:** write every query category in every language listed in your CLAUDE.md Languages table (typically 1-2, sometimes more). A posting requiring a language you have *not* declared, as a job condition, is excluded before scoring; a posting requiring a *higher level* than you declared in a language you *do* work in is flagged for your own judgment, not excluded — see `04-job-evaluation.md`'s Language Gate, the single source of truth for this rule. Translate each category's keywords rather than machine-translating word-for-word (e.g. "Frontend Developer" -> "Desarrollador Frontend", not a literal word-for-word translation) if you work in more than one language.
+**Language scope:** every query category is written in both languages from the Languages table — **English** (primary) and **Hindi** (secondary, for domestic boards where Hindi postings appear). A posting requiring a language you have *not* declared, as a job condition, is excluded before scoring; a posting requiring a *higher level* than you declared in a language you *do* work in is flagged for your own judgment, not excluded — see `04-job-evaluation.md`'s Language Gate.
 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **naukri.com** - India's largest general job board
+- **linkedin.com/jobs** (filter: India / Delhi NCR / Remote); also covered by `linkedin-search` CLI
+- **lets-code.co.in/jobs** - India startup + enterprise roles and internships; also covered by `lets-code-search` CLI
+- **wellfound.com** - startup/tech roles in India (remote-friendly)
+- **indeed.co.in** - general aggregator
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
+- `freehire-search` CLI for aggregated tech roles across ATS platforms
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Each category is written in English and Hindi. Combine each query with your location terms (Remote India, Delhi NCR, Mathura) where the site supports it.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
+**Organize by function, not job title.** The same underlying work carries different titles across companies - "Full Stack Developer", "Software Engineer", "SDE", and "Product Engineer" can describe the same job.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Full-Stack / Frontend / Backend Engineering
 
 These match your strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:naukri.com "Full Stack Developer" Node.js React Delhi NCR
+site:naukri.com "Full Stack Developer" Remote India
+site:naukri.com "Backend Developer" Node.js India
+site:naukri.com "Frontend Developer" Next.js React India
+site:linkedin.com/jobs "Full Stack Developer" Node.js India
+site:linkedin.com/jobs "Software Engineer" React Node.js Remote India
+site:wellfound.com "Full Stack Engineer" India
+site:indeed.co.in "SDE" Node.js Delhi
+site:naukri.com "फुल स्टैक डेवलपर" Node.js
+site:naukri.com "सॉफ्टवेयर इंजीनियर" दिल्ली
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Domain - production platforms, payments, real-time
 
-These match your domain expertise.
+These match your domain expertise: production web platforms, payments, and real-time systems.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:naukri.com "payments" developer Node.js India
+site:naukri.com "real-time" WebSocket developer India
+site:naukri.com "fintech" "full stack" India
+site:linkedin.com/jobs "payments engineer" India
+site:linkedin.com/jobs "Node.js" "microservices" India
+site:naukri.com "production" platform developer Remote
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Adjacent - DevOps/Cloud, Solutions, Technical roles
 
 Adjacent roles you could pivot into.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:naukri.com "DevOps Engineer" Docker AWS India
+site:naukri.com "Cloud Engineer" AWS India
+site:linkedin.com/jobs "Solutions Engineer" India
+site:linkedin.com/jobs "Technical Consultant" India
+site:naukri.com "Software Development Engineer in Test" OR "SDE 1" India
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 4: Broader Technical
 
 Wider net for general technical roles.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:naukri.com "Software Developer" Delhi NCR
+site:naukri.com "React Developer" Remote India
+site:linkedin.com/jobs "Web Developer" India
+site:indeed.co.in "developer" Node.js Mathura OR Agra OR Delhi
+site:naukri.com "प्रोग्रामर" OR "डेवलपर" भारत
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from your home. **Open to relocation** for the right role, so tiers reflect preference, not hard limits:
+
+- **Ideal:** Remote (India-wide); Mathura; Delhi NCR (Delhi, Gurugram, Noida, Ghaziabad, Faridabad)
+- **Acceptable (relocation open):** Bangalore, Pune, Hyderabad, Mumbai, Chennai, Jaipur, Agra, Chandigarh
+- **Borderline:** Kochi, Lucknow, Indore, Ahmedabad (relocation possible but lower preference)
+- **Too far / not targeted:** onsite roles outside India (no work-permit basis recorded); remote international roles acceptable
 
 ## Language Filter
 
-Your working languages and levels are in CLAUDE.md's Languages table. When filtering scraped results, apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language you haven't declared at all is excluded; a posting requiring a higher level than you declared in a language you do work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language you don't work in, that don't require it on the job, are fine.
+Your working languages and levels are in CLAUDE.md's Languages table (Hindi - native, English - professional working proficiency). When filtering scraped results, apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language you haven't declared at all is excluded; a posting requiring a higher level than you declared in a language you do work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language you don't work in, that don't require it on the job, are fine.
 
 ## Date Filter
 
@@ -87,4 +103,4 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+- "/scrape nodejs" -> Priority 1 + 2 Node.js queries + custom focus-specific queries

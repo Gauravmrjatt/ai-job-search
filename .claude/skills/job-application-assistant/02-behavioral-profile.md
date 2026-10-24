@@ -4,51 +4,55 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment (PI/DISC/MBTI/StrengthsFinder) on record. Profile below is a
+self-assessment synthesized from /setup answers (work-style, goals) and the pattern of
+the candidate's own work history. Review and correct anything that reads wrong. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Gaurav's self-assessment identifies them as a **hands-on builder** pattern. They thrive in collaborative, synchronous teams while owning features end-to-end - from code through deployment and production monitoring.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Delivery orientation | High | Freelance history is project-based: build, ship, demo, maintain |
+| Collaboration | High | Prefers collaborative, synchronous work over fully async isolation |
+| Ownership | High | End-to-end responsibility including deployment, payouts, and monitoring |
+| Technical growth | High | Consistently broadens across stack, DevOps, and observability tooling |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **End-to-end ownership:** Ships complete platforms solo - schema, API, frontend, payments, deployment, monitoring - rather than single-layer ticket work.
+- **Production-mindedness:** Builds for the real world: payment signature verification, webhook retries, fraud detection, Sentry/Grafana monitoring, background workers.
+- **Cross-stack fluency:** Moves comfortably between frontend (Next.js/React), backend (Node.js), data (PostgreSQL/MongoDB/Redis), and infrastructure (Docker/CI/CD).
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Collaborative, synchronous settings with regular check-ins and shared context (self-reported)
+- Clear ownership of a feature or system through to production
+- Fast feedback loops where work is visible in a shipped product
+- Pragmatic delivery pace: get it running correctly, then harden it
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Breadth over depth (initially):** Frame as "full-stack generalist who goes deep where production demands it" - depth is proven in payments and real-time systems, not spread thin.
+- **Solo-freelance background:** Frame as "comfortable operating independently with minimal supervision, now seeking a team to multiply impact through collaboration."
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "own features end to end" / "ship from concept to production"
+- "fast-paced" / "startup environment" / "wear many hats"
+- "collaborative team" / "work closely with design and product"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "maintenance-only" / "support role with no new development"
+- "strict hand-offs between teams" / "highly regimented process"
+- "fully asynchronous, no meetings" (works, but not the stated preference)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works best with: regular feedback, clear priorities, autonomy in *how* work gets done
+- Doesn't work: micromanagement, unclear ownership, slow decision loops
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Weave in ownership + collaboration: "built and shipped X end-to-end while working closely with [client/stakeholders]"
+- **CV:** Emphasize production outcomes and metrics (orders processed, uptime, integrations)
+- **Interviews:** Use the Cashbackwallah and Dream10 STAR examples for ownership and scale questions
+- **Don't overstate:** Don't claim team-lead or formal management experience; don't claim enterprise-scale beyond 1,000+ orders

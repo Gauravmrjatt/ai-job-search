@@ -1,0 +1,194 @@
+%% Tailored CV - Gaurav Chaudhary
+%% Target: Backend Developer at Bjak (Remote, India)
+%% Compile with: lualatex main_bjak_backend_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+% Default banking leaves them black: moderncvstylebanking.sty's \colorlet
+% copies (not aliases) the pre-scheme accent colour, so the name colours are
+% frozen before \moderncvcolor runs. Re-let them after. \namefont is the hook
+% every name-style macro routes through, so this also works on moderncv 2.3.1
+% (Debian/Ubuntu apt), which has no \firstnamestyle/\lastnamestyle at all.
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV - Backend Developer},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\phone[mobile]{+91-8077598311}
+\email{gauravmrjatt4@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}, \href{https://github.com/Gauravmrjatt}{GitHub}, \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Backend-focused Full-Stack Developer (Node.js, Express.js, TypeScript, PostgreSQL) with over three years of freelance production delivery: REST APIs, payment-provider integrations, webhook-driven order flows, Redis and RabbitMQ queues, and scheduled jobs. Owns services end to end, from schema design through deployment, monitoring, and production debugging, with a reliability and data-quality mindset built on systems real customers use every day. B.Tech CSE (expected 2027) with a strong DSA foundation (LeetCode 1,430 contest rating).}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend APIs \& Services}: Node.js, Express.js, TypeScript, REST, JWT authentication and role-based access - production APIs behind logistics, quiz, and affiliate lead-tracking platforms.
+
+\item \textbf{Payments \& Integrations}: Razorpay (signature verification, payouts, refunds), Shiprocket, Firebase OTP, Auth0, Paytm, webhook/postback processing - wallets, transaction ledgers, and KYC-gated flows.
+
+\item \textbf{Queues, Jobs \& Events}: Redis, RabbitMQ, Node.js Cluster - background job processing, scheduled refund workflows, and high-concurrency event handling.
+
+\item \textbf{Databases \& Data Quality}: PostgreSQL, MySQL, MongoDB with Prisma and Mongoose; schema design for order, ledger, and commission systems; validation on live data.
+
+\item \textbf{Reliability, Latency \& Observability}: production debugging, automated fraud detection, Redis-backed caching for latency, Sentry error tracking, Prometheus, Grafana, and Loki monitoring on running services.
+
+\item \textbf{DevOps}: Docker, NGINX, GitHub Actions, CI/CD, AWS EC2, Linux - pipelines owned from commit to production.
+
+\item \textbf{Frontend (supporting)}: React, Next.js, Tailwind CSS - enough depth to pair with frontend teams on API contracts.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\item{\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{Cashbackwallah}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built the backend of a production logistics platform from scratch (Express.js, TypeScript, Prisma, PostgreSQL): shipment booking APIs, order management, and a multi-level franchise commission system - 1,000+ orders processed.}
+    \item {Integrated payment and third-party providers: Razorpay payment signature verification, wallet and transaction ledger, KYC-gated orders, automated payouts, webhook processing, and scheduled refund workflows.}
+    \item {Ran reliability work on live services: Sentry error tracking, Redis-backed caching and job queues, and production debugging across 1,000+ live orders.}
+    \item {Handled end-to-end deployment and DevOps for the platform. Demo: cashbackwallah.com}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\item{\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{Dream10.in}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built backend services for a production real-time quiz platform (Node.js, Redis, RabbitMQ, WebSockets): automated payment/payout processing, live leaderboards, and anti-cheat mechanisms.}
+    \item {Built fault-tolerant services for high-concurrency event handling; managed CI/CD deployment. Demo: dream10.in}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{Lead Tracking System}{Remote / client project}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built an affiliate lead-tracking platform (2023), still maintained and extended on demand: webhook/postback handling, automated fraud detection, payment processing, real-time dashboards, role-based access control.}
+    \item {Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; implemented production monitoring with Prometheus, Grafana, and Loki. Demo: panel5.logicpay.in}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Jun 2025}{CodeLab}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Collaborative coding platform (Next.js, Node.js, Express, Docker): contest and testcase management with invite-based rooms.}
+    \item {Docker-sandboxed code execution backend over WebSockets with CRDT-based real-time multi-user editing.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Mar 2025}{Data Vault}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Privacy-focused file manager (Node.js, MongoDB, Telegram Bot API): chunk-based encrypted storage with resumable uploads.}
+    \item {Secure file sharing with search, pagination, and folder organization.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Aug 2021}{Earning Area}{Independent project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Gamified rewards platform (PHP, MySQL, Paytm API): automated payouts and reward distribution.}
+    \item {First end-to-end payment integration, built and run in production while in high school.}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2023-2027}{B.Tech in Computer Science and Engineering}{GLA University}{Mathura, India}{}{\vspace{1pt}
+In progress, expected 2027. Key topics: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item {Hindi (native), English (professional working proficiency).}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{Finalist} - WebX Frontend Challenge.}
+\item{\textbf{4th place} - WebForge; \textbf{4th place} - Code Arambh.}
+\item{\textbf{LeetCode} - 1,430 contest rating.}
+\item{\textbf{AWS Cloud Computing Certification} - JOVAC, GLA University (2025).}
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

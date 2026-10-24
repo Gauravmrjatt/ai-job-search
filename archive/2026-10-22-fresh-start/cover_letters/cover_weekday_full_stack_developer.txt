@@ -1,0 +1,46 @@
+                            Gaurav Chaudhary
+          gauravmrjatt4@gmail.com | +91-8077598311 | LinkedIn | GitHub | Portfolio
+
+
+                                                                                  October 9, 2026
+Dear Hiring Team,
+
+I am writing for the Full-stack Developer role, remote within India, that Weekday is hiring for
+one of its clients. For over three years I have built and run production platforms remotely for
+Indian clients: React and Next.js interfaces with TypeScript, REST APIs in Node.js and Express,
+and SQL and document databases.
+
+Insurance and fintech application work is what I want next. My closest overlap is the
+money-movement side: wallet and transaction ledgers, KYC-gated orders, payment signature
+verification, automated payouts and refunds on a logistics platform that has processed 1,000+
+orders, plus webhook and postback handling maintained on an affiliate platform since 2023.
+Insurance application configuration itself is new to me; the discipline of handling money
+correctly is not.
+
+How I match your requirements:
+
+
+  • ReactJS and web applications: React, Next.js, TypeScript, HTML, and CSS interfaces
+    shipped across logistics, real-time quiz, and affiliate-tracking platforms with live users;
+    Next.js and API management are current practice, not a ramp-up.
+  • REST APIs and data: Express.js REST services over PostgreSQL, MongoDB, and MySQL,
+    covering webhooks, payment flows, role-based access, and real-time dashboards.
+  • Product ownership: I build and run my own products with real users (CodeLab, Data Vault,
+    Earning Area) alongside client platforms, from requirements through production support.
+  • AI-assisted development: Claude Code for building and maintaining production code,
+    alongside GitHub Actions CI/CD and monitoring with Sentry and Grafana.
+
+Three gaps, stated plainly: I have not been employed at a product company, I have not built
+insurance applications, and my production backend is Node.js rather than Python. Python sits
+in my core CS and scripting background, not in shipped work. What I bring instead is
+ownership of live systems solo and remote, with direct client communication since 2023.
+
+My portfolio at gauravmrjatt.vercel.app and GitHub show these systems deployed. I look
+forward to hearing from you.
+
+
+Kind regards,
+
+
+Gaurav Chaudhary
+

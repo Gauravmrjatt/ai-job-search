@@ -4,8 +4,6 @@ framework_version: 1.0.0
 
 # Interview Preparation Guide
 
-<!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
-
 ## STAR Format
 
 Structure answers as: **Situation** (context), **Task** (your responsibility), **Action** (what you did), **Result** (outcome).
@@ -14,44 +12,47 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Cashbackwallah - production logistics platform (End-to-end ownership)
+**S:** A client needed a logistics platform built from nothing: courier rate comparison, shipment booking, order management, and a multi-level franchise commission system - with real money moving through it.
+**T:** Own the entire build solo - architecture, database schema, frontend, payments, third-party integrations, and deployment.
+**A:** Built with Next.js, TypeScript, Express.js, Prisma, and PostgreSQL; integrated Shiprocket for shipping, Razorpay for payments (with signature verification), Firebase OTP for auth, Redis for caching/queues, and Sentry for error tracking; set up CI/CD and deployed end-to-end.
+**R:** Platform went live and processed 1,000+ orders, with wallet/ledger, KYC-gated orders, automated payouts, webhook processing, and scheduled refund workflows running in production. Demo: cashbackwallah.com
+**Use for:** "Tell me about a project you're proud of", "ownership", "full-stack capability", "shipping under pressure"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Cashbackwallah - payments, ledger, and payout reliability (Payments & correctness)
+**S:** The platform handled real customer payments, franchise commissions, and payouts - errors would mean lost money and broken trust.
+**T:** Make money movement correct and auditable: payments in, commissions split, payouts out, refunds handled.
+**A:** Implemented Razorpay payment signature verification, a wallet and transaction ledger, KYC-gated order flow, automated payout processing, webhook handling with retry semantics, and scheduled refund workflows - all instrumented through Sentry.
+**R:** A fully automated, auditable money pipeline running in production with no manual payment reconciliation. 
+**Use for:** "How do you handle correctness/reliability?", "experience with payments", "attention to detail"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Dream10 - real-time quiz platform (High concurrency / real-time)
+**S:** A real-time quiz platform had to serve partners live: hundreds of concurrent players, live leaderboards, anti-cheat, and instant payment/payout settlement - all with no visible lag or cheating.
+**T:** Build the real-time layer and the background processing so the system stays correct under load.
+**A:** Used WebSockets for live state, Redis for leaderboards and ephemeral state, RabbitMQ for durable event processing, and Node.js for fault-tolerant services handling high-concurrency events; implemented anti-cheat mechanisms and automated payment/payout processing; managed CI/CD.
+**R:** Shipped a production platform to partners handling live concurrent play with automated payouts. Demo: dream10.in
+**Use for:** "Experience with scale/real-time?", "system design", "how do you handle concurrency?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
-
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Lead Tracking System - scaling and monitoring (Reliability & DevOps)
+**S:** An affiliate lead-tracking platform built in 2024 kept growing; background processing and visibility into production health became the bottleneck, and the client still needed occasional updates.
+**T:** Keep it reliable and observable while extending it on demand as an ongoing maintenance engagement.
+**A:** Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; implemented Prometheus, Grafana, and Loki monitoring; maintained real-time dashboards, fraud detection, webhook/postback handling, Telegram alerts, and role-based access control.
+**R:** Platform has run in production since 2024, still actively maintained and extended - a multi-year client relationship. Demo: panel5.logicpay.in
+**Use for:** "How do you handle production monitoring?", "maintaining legacy systems", "reliability"
 
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+> Freelance/contract model - projects end when delivered. Frame positively: each engagement was a complete build handed off or transitioned to maintenance; now looking for a team and longer-term ownership.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge the gap honestly, bridge to adjacent experience (e.g. no Kubernetes -> Docker + CI/CD on AWS EC2), show a concrete example of learning fast on the job.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Growing from full-stack delivery into system design / tech-lead scope on production platforms, with deeper cloud and DevOps ownership.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Prepare a genuine one with mitigation - e.g. breadth-first tendencies; mitigation: goes deep on payments/reliability areas where correctness matters.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

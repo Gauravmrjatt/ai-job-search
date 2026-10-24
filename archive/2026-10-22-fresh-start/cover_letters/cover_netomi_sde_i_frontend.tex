@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Netomi, SDE I - Frontend
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://github.com/Gauravmrjatt}{GitHub} | \href{https://gauravmrjatt.vercel.app}{Portfolio}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Subject: Application: SDE I - Frontend}
+
+\lettercontent{Dear Netomi Hiring Team,}
+
+\lettercontent{I am writing to apply for the SDE I - Frontend role. Over three years I have shipped React and Next.js interfaces in TypeScript for production platforms with real users, owning modules end to end from component to deploy, and I want to bring that ownership to a platform as ambitious as yours.}
+
+\lettercontent{What draws me to Netomi is the shape of the problem: a no-code platform where brands like Delta, United, and MetLife build, test, deploy, and monitor AI agents for customer experience. That is a UI-heavy B2B SaaS application in the purest sense, and it is the exact class of interface I have been building. How I match the requirements:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{React and TypeScript in production:} Cashbackwallah, a logistics platform I built from scratch that has processed 1,000+ live orders, and Dream10, a real-time quiz platform with live leaderboards, both shipped to real users.
+    \item \textbf{Reusable components and design translation:} multi-level commission views, wallet and refund screens, and multi-step KYC flows, built from client requirements and design specs into shared components.
+    \item \textbf{REST APIs and webhooks:} payment signature verification, webhook/postback processing, and integrations like Shiprocket and Razorpay wired through the frontend, the connective tissue of any agent platform.
+    \item \textbf{Node.js as a working secondary skill:} Express.js backends with WebSockets, Redis, and RabbitMQ behind the frontends above, so I can collaborate on API design from both sides.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{My workflow is modern and AI-assisted: I use Claude Code for scaffolding, refactoring, and review passes on production code, which keeps delivery fast without giving up care. I am based in Mathura, Uttar Pradesh, India, and since the role is remote within India, I am fully set up for it: every platform above was built and maintained working remote, with Git-based workflows and CI/CD doing the coordinating.}
+
+\lettercontent{I would enjoy the chance to own UI modules on a platform raising the bar for enterprise customer experience. I look forward to hearing from you.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

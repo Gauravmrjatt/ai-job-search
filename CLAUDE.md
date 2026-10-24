@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Gaurav Chaudhary
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Gaurav Chaudhary, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,82 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Gaurav Chaudhary
+- **Location:** Mathura, Uttar Pradesh, India (open to relocation for the right role; remote India acceptable)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Hindi | Native |
+  | English | Professional working proficiency |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Freelance Full-Stack Developer (independent); B.Tech student, final years (expected 2027)
+- **LinkedIn headline:** "Full-Stack Developer | Next.js / Node.js | Production systems, payments & DevOps"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Tech in Computer Science and Engineering** (2023-2027, in progress - expected 2027) - GLA University, Mathura
+  - Topics: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Freelance Full-Stack Developer** (Jan 2026 - Aug 2026) - **Cashbackwallah** (remote/client project)
+  - Built and deployed a production logistics platform from scratch (Next.js, TypeScript, Express.js, Prisma, PostgreSQL): courier rate comparison, shipment booking, order management, multi-level franchise commission system - 1,000+ orders processed
+  - Integrated Shiprocket, Razorpay (signature verification), Firebase OTP, Redis, Sentry: wallet/transaction ledger, KYC-gated orders, automated payouts, webhook processing, scheduled refund workflows
+  - End-to-end deployment and DevOps. Demo: cashbackwallah.com
+
+- **Freelance Full-Stack Developer** (Mar 2025 - Nov 2025) - **Dream10.in** (remote/client project)
+  - Shipped a production real-time quiz platform (Next.js, Node.js, Redis, RabbitMQ, WebSockets): live leaderboards, anti-cheat, automated payment/payout processing
+  - Fault-tolerant services for high-concurrency event handling; CI/CD deployment. Demo: dream10.in
+
+- **Freelance Full-Stack Developer (Ongoing Maintenance)** (May 2023 - Present) - **Lead Tracking System** (remote/client project)
+  - Built an affiliate lead-tracking platform (2024), still maintained/extended on demand: real-time dashboards, fraud detection, webhook/postback handling, payment processing, Telegram alerts, RBAC
+  - Scaled background processing with RabbitMQ, Redis, Node.js Cluster; monitoring with Prometheus, Grafana, Loki. Demo: panel5.logicpay.in
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** TypeScript/JavaScript, Next.js, React, Node.js, Express.js, PostgreSQL, Prisma, REST
+- **Secondary:** Redis, RabbitMQ, MongoDB, Docker, GitHub Actions, CI/CD, AWS EC2, Linux, GraphQL, WebSockets/Socket.IO
+- **Domain:** Production web platforms (logistics, quiz/edtech, affiliate tracking), payments & money movement, real-time/high-concurrency systems, DevOps & observability
+- **Software:** Git, Postman, NGINX, Sentry, Prometheus, Grafana, Loki, Firebase, Auth0, Shiprocket, Razorpay; Java, Python, SQL, PHP
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None on record (add as you earn them and re-run `/setup`).
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Finalist - WebX Frontend Challenge
+- 4th place - WebForge
+- 4th place - Code Arambh
+- LeetCode: 1,430 contest rating
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **End-to-end ownership:** Ships complete platforms solo - schema, API, frontend, payments, deployment, monitoring
+- **Production-mindedness:** Builds for the real world - retries, webhooks, fraud checks, observability
+- **Strengths:** Full-stack breadth, payments/reliability depth, fast independent delivery, collaborative sync work style
+- **Growth areas:** Depth over breadth (frame as "goes deep where production demands it"); solo-to-team transition
+- **Thrives in:** Collaborative, synchronous teams; ownership through production; fast feedback loops
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Shipping production systems end-to-end where users actually run your work
+- Payments, real-time, and reliability problems where correctness matters
+- Growing into system design / tech-lead scope with deeper cloud & DevOps ownership
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Fintech & payments: companies moving money, wallets, payouts, billing platforms
+- Logistics, e-commerce & marketplace platforms: booking, order management, commissions
+- Real-time consumer/social/edtech products: live, collaborative, high-concurrency experiences
+- Product startups/SaaS: small teams where full-stack ownership is the norm
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Base salary below ₹6-7 LPA (flexible above that for the right role)
+- Maintenance-only or pure-support roles with no new development
+- Roles with no visibility into deployment/production of what you build
+<!-- Language requirements are handled separately and automatically from the Languages table above. -->
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

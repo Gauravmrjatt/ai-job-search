@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Gaurav Chaudhary - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Gaurav}{Chaudhary}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\phone[mobile]{+91-8077598311}
+\email{gauravmrjatt4@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}, \href{https://github.com/Gauravmrjatt}{GitHub}, \href{https://gauravmrjatt.vercel.app}{Portfolio}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full-Stack Developer roles (primary):**
+> Full-Stack Developer specializing in Next.js/Node.js production systems - payments, real-time processing, and DevOps. Shipped freelance platforms processing 1,000+ live orders end-to-end: architecture, integrations, deployment, and monitoring. B.Tech CSE (expected 2027) with a strong DSA foundation (LeetCode 1,430 contest rating).
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Backend / Software Engineer roles (secondary):**
+> Backend-leaning Full-Stack Developer (Node.js/TypeScript) with production experience in payment flows, webhook processing, and high-concurrency event systems backed by Redis and RabbitMQ. Built wallet/ledger, payout, and refund pipelines in live products, plus monitoring with Prometheus/Grafana/Sentry. Comfortable owning services from schema through deployment.
+
+**For DevOps / Cloud-adjacent roles:**
+> Developer with hands-on DevOps ownership of every project shipped: Docker, GitHub Actions CI/CD, AWS EC2, NGINX, Linux, and observability stacks (Prometheus, Grafana, Loki, Sentry). Runs production systems end-to-end - background workers, scheduled jobs, alerting - alongside full-stack delivery in Next.js/Node.js.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
