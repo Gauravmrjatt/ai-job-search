@@ -1,0 +1,27 @@
+{
+  "company": "Bjak",
+  "fetched": "2026-10-22",
+  "role_target": "Backend Developer",
+  "apply_route": "hr@bjak.my by email (per https://bjak.my/en/career: 'Send us your CV and cover letter anyway'); aggregator himalayas.app showed apply-before 2026-09-09 for the India-market listing",
+  "sources": {
+    "posting": "documents/applications/bjak_backend_developer/job_posting.md (lets-code.co.in, dated 2026-07-21)",
+    "company_site": "https://bjak.my/en/career (fetched 2026-10-10)",
+    "himalayas": "https://himalayas.app/companies/bjak/jobs/backend-developer-9368115149 (India only)",
+    "india_context": "jobcode.in aggregation: 'BJAK is hiring talented Backend Developers across India to develop the core backend infrastructure powering its AI-driven Neobank platform'"
+  },
+  "facts": [
+    "Bjak (BJAK Sdn. Bhd.) is a technology company making financial services transparent, efficient, and inclusive; started in 2019; headquartered in Malaysia; BNM-approved Financial Adviser and Islamic Financial Adviser (Bank Negara Malaysia).",
+    "Built the first mobile-first insurance platform in the region; today the leading insurance platform in Southeast Asia, serving over 9 million users; also an approved vehicle-insurance platform digitizing road tax renewals.",
+    "Expanding into spending, saving, investing, exchanging, and travel; building BJAK's AI Neobank app.",
+    "More than 20 nationalities across offices and remote roles; remote hiring per market (the India listing says candidates must be based in India).",
+    "Interview process: online assessment or practical task, then technical interview, then CEO/final round; aim to complete within 1 week for strong candidates; fast assessment completion is prioritized.",
+    "Posting bands the role at 12-18 LPA (posting fact only; never claim in letters).",
+    "Posting requirements: strong backend engineering experience in production systems; good understanding of APIs, databases, authentication, authorization, queues, jobs, events and integrations; services used by real customers at meaningful scale; debugging, reliability, security, data-quality mindset; practical trade-offs.",
+    "Posting scope: backend services and APIs for onboarding, accounts, payments, cards, transfers, rewards, travel, FX, KYC and risk flows; integrating internal systems, financial partners, payment providers, AI services and third-party platforms; reliability, security, latency, observability, data integrity, incident handling.",
+    "Posting explicitly says fintech/payments/KYC/fraud experience is a strong plus but not required if fundamentals are strong."
+  ],
+  "claims_forbidden": [
+    "any specific language/framework for Bjak's stack (the posting names no language; never claim or refer to Laravel/PHP)",
+    "any company fact not listed above"
+  ]
+}

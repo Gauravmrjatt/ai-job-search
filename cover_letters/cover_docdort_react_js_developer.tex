@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Docdort, React JS Developer, Bengaluru
+% Compile with: xelatex -interaction=nonstopmode cover_docdort_react_js_developer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one, and
+% break on an \mbox{} so there is always a line to end (a bare \\ after the
+% closing group errors with "There's no line here to end").
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Docdort hiring team,}
+
+\lettercontent{I am applying for the React JS Developer role in Bengaluru. For over three years of freelance delivery I have built React and Next.js interfaces for products where the screen has to stay correct under real use: KYC-gated order steps, wallet and ledger views, live WebSocket leaderboards, fraud-detection dashboards, and role-based admin panels. I would bring that same discipline to the modern web applications and scalable products you build for your clients.}
+
+\lettercontent{How my work maps to your stack:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item {\textbf{React.js and modern JavaScript:} React 19 and Next.js 15/16 in production, including a Next.js 16 client against a 145-endpoint backend, with modern JavaScript (ES6+) and TypeScript across a 59,000-line codebase.}
+    \item {\textbf{Responsive web apps:} Tailwind CSS and Material UI for multi-device layouts across consumer, partner, and admin surfaces, with explicit loading, empty, and error states.}
+    \item {\textbf{Scalable products:} reusable component systems of 80, 63, and 45 components across separate products, wired to backends of 145 and 107 REST endpoints.}
+    \item {\textbf{Quality and delivery:} a 10-file automated test suite on a live platform, with CI/CD through GitHub Actions and production debugging via Sentry and Prometheus/Grafana.}
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{My delivery has been solo client work with feedback over chat and calls rather than Agile sprint ceremonies, and I have not worked under a formal accessibility audit, though I build keyboard-usable, semantic components as habit. I am comfortable picking up team processes and code-review conventions quickly.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and am ready to relocate to Bengaluru for this role. My B.Tech at GLA University runs to 2027, and over three years of client delivery has already been scheduled around it.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

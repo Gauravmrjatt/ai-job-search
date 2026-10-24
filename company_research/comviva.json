@@ -1,0 +1,14 @@
+{
+ "company": "Comviva",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://www.comviva.com/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: self-describes as 'The Global Leader of Mobility Solutions'; brand line 'Experience Credible Impact'; stats block: '25+ Years of technological excellence', '2Bn+ Platform users across the world', '100+ Countries served', '3000+ Thinkers, Researchers & Innovators'. Product families: FinTech (mobiquity Pay), MarTech (MobiLytix Marketing Studio), Loyalty & Rewards (MobiLytix Rewards: Telecom and Retail), DigiTech (BlueMarble BSS suite), RevTech (CNPaaS). VERIFIED: '2nd consecutive year in the 2025 Gartner Magic Quadrant for AI in CSP Customer & Business Operations'. VERIFIED: MobiLytix Rewards hosted on AWS Cloud (Gourmet Food Stores Egypt CEO quote: tiered loyalty program 'hosted on AWS Cloud'). VERIFIED: Juniper Research Digital Wallets Market 2025-2030 report names Comviva an 'Established Leader'. Careers/About links present; headquarters NOT verified in this fetch - do not claim a city."
+  },
+  "posting": {
+   "url": "https://www.linkedin.com/jobs/view/4474139492",
+   "notes": "LinkedIn detail fetched 2026-10-10 via linkedin-search detail 4474139492. Role: Full Stack Developer (MERN), Bengaluru Karnataka India, Full-time, active. Product: MobiLytix Rewards cloud-native B2B Loyalty Management SaaS. NO years-of-experience bar; entry requirement is a Bachelor's degree in CS/Engineering 'or equivalent practical experience'. Must-haves: JS, TypeScript, React, Node.js, Express, Material UI / Ant Design, Feathers.js 'or similar', Postgres, Cassandra, BigQuery, Git, CI/CD (GitHub Actions / GitLab CI / CircleCI), AWS (EC2, S3, Lambda, API Gateway, EKS), Docker, Kubernetes, Prometheus, Grafana, ELK, data pipelines incl. Apache NiFi. Desirable: SaaS/multi-tenant, AI/GenAI incl. LLM integrations and agentic AI frameworks, Kafka/event-driven, prior mentoring. Responsibilities: collaborate with product engineering, tech ops/support, DevOps, QA; code reviews; mentor junior developers; root cause analysis and preventive engineering."
+  }
+ }
+}

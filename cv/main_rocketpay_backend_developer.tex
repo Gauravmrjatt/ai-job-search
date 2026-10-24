@@ -1,0 +1,151 @@
+%% CV - Gaurav Chaudhary
+%% Target: RocketPay - Back End Developer
+%% Bengaluru, India
+%% Compile with: lualatex -interaction=nonstopmode main_rocketpay_backend_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+% Plain text bullets (RULE 2). Keep these three lines in every CV.
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+
+% No page numbers: they interrupt ATS parsing and create phantom holes.
+\nopagenumbers
+
+% Personal data (RULE 1 and 7).
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\extrainfo{Phone: +91-8077598311 \textbar{} Email: gauravmrjatt4@gmail.com \textbar{} \href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} \textbar{} \href{https://github.com/Gauravmrjatt}{GitHub} \textbar{} \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     SUMMARY (2-3 lines - RULE 4)
+% ============================================================
+
+\vspace{2pt}
+\small{Backend Developer working in Node.js, TypeScript, and Express.js with over three years of freelance production delivery. Built and maintain a 145-endpoint Express/Prisma/PostgreSQL backend (23 models, 1,000+ orders processed) for financial infrastructure: payments, wallet ledger, payouts, refunds, KYC-gated paths, webhook processing. Owns queue and worker systems (RabbitMQ payout queue, Redis caching, Node.js Cluster), third-party API integrations (Shiprocket, Razorpay, Firebase OTP), and Auth0-backed authentication. B.Tech CSE in progress, expected 2027; LeetCode 1,430 contest rating.}
+
+% ============================================================
+%     EDUCATION (right after summary for student profile - RULE 5)
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\cventry{2023-2027}{B.Tech, Computer Science and Engineering}{GLA University}{Mathura, India}{}{%
+In progress, expected 2027. Coursework: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.}
+
+% ============================================================
+%     CORE COMPETENCIES (compact labelled block - RULE 4)
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\raggedright
+\textbf{Backend Development:} Node.js, TypeScript, JavaScript (ES6+), Express.js; server-side services and REST APIs for financial infrastructure (payments, wallet ledger, payouts, refunds, KYC-gated paths, webhook processing) \textbar{}
+\textbf{Queue \& Worker Systems:} RabbitMQ queues (payout queue, idempotency, retries), Redis pub/sub and caching, Node.js Cluster, fault-tolerant async services, background job processing \textbar{}
+\textbf{APIs \& Integrations:} REST API design (145 and 107 endpoints), third-party API integration (Shiprocket, Razorpay, Firebase OTP), handling rate limits, pagination, and webhook delivery \textbar{}
+\textbf{Databases \& Query Work:} PostgreSQL (primary), Prisma ORM (23-model and 12-model schemas), Redis-cached hot reads, MongoDB, MySQL \textbar{}
+\textbf{Authentication \& Authorization:} JWT, Auth0-backed flows, OAuth (consumer side), role-based access control, payment signature verification \textbar{}
+\textbf{Testing, CI/CD \& Observability:} automated unit and integration test suites, Docker, GitHub Actions CI/CD, AWS EC2, Linux, NGINX, Coolify; Prometheus, Grafana, Loki, Sentry \textbar{}
+\textbf{Streaming \& Events:} Kafka event streaming (School project), RabbitMQ queues, Redis pub/sub, Node.js Cluster, WebSockets
+\par\normalfont
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE (RULE 7)
+% ============================================================
+
+\section{Professional Experience}
+\vspace{1pt}
+
+% --- Most Recent Role ---
+\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{\textbf{Cashbackwallah} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Designed and built a production logistics platform backend from scratch in Express.js, TypeScript, Prisma, and PostgreSQL: 145 REST endpoints and 23 database models serving courier rate comparison, shipment booking, order management, and a multi-level franchise commission system, with 1,000+ orders processed.}
+    \item {Implemented the money-movement layer end to end: a wallet and transaction ledger, KYC-gated order paths, automated payouts, webhook processing, and scheduled refund workflows, with Razorpay payment signature verification on every callback.}
+    \item {Built and optimized RESTful APIs for Shiprocket courier integrations (rate limits, pagination, webhook delivery), Firebase OTP, and Redis-backed caching, keeping booking and rate-comparison reads off the primary database under live traffic.}
+    \item {Designed the queue and worker architecture: a RabbitMQ payout queue keeps slow payouts from blocking requests, with retry-safe consumers and idempotent job processing. Containerized services with Docker and ran CI/CD deployment on AWS EC2 and Linux.}
+    \item {The backend is open source (github.com/Gauravmrjatt/cheapship, about 59,000 lines), which is where a reviewer can read the API structure, Prisma schema, and query work directly. Demo: cashbackwallah.com}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Previous Role ---
+\needspace{6\baselineskip}
+\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{\textbf{Dream10.in} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built fault-tolerant Node.js services for a real-time quiz platform serving high-concurrency events: Redis caching and pub/sub, a RabbitMQ queue for scoring and payout jobs, and WebSocket endpoints feeding live leaderboards.}
+    \item {Implemented automated payment and payout processing with retry-safe queue consumers, so a slow downstream payment call never blocked a live game request. Reconciled state after partial failures (expired tokens, rate limits).}
+    \item {Owned CI/CD deployment and Docker-based service configuration for the release of each partner-facing event build. Demo: dream10.in}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Earliest Role, Ongoing ---
+\needspace{6\baselineskip}
+\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{\textbf{Lead Tracking System} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Originally built a production affiliate lead-tracking platform in 2023 and still maintain and extend it: 107 REST endpoints, 12 database models, and about 31,000 lines, handling webhook and postback ingestion from partner networks around the clock.}
+    \item {Runs distributed background processing with a RabbitMQ payout queue, Redis-cached hot reads, and Node.js Cluster workers, keeping slow payout jobs off the request path.}
+    \item {Implemented JWT and Auth0-backed authentication with role-based access control, automated fraud detection, and Telegram alerting for operations.}
+    \item {Set up and maintained automated unit and integration tests (10-file suite kept passing alongside ongoing changes) and production monitoring with Prometheus, Grafana, Loki, and Sentry. Demo: panel5.logicpay.in}
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{School} (Nov 2025 - Present): school management API on Apollo GraphQL with WebSocket subscriptions over 10 Prisma models; Kafka carries attendance, exam-result, and payment events, Redis pub/sub fans results out. Open-source on GitHub. Repo: github.com/Gauravmrjatt/School}
+    \item {\textbf{CodeLab} (Jun 2025): collaborative coding platform on Node.js and Express with WebSockets, CRDT editing, and a Docker-sandboxed judge (Node, Python, Java, C++); about 32,000 lines across 23 routes. Repo: github.com/Gauravmrjatt/Codellab}
+    \item {\textbf{OSM Fortress} (May 2026): gift-code distribution service with 66 routes and about 58,000 lines, gated by proof-of-work checks, anti-scraping layers, and device fingerprints. Repo: github.com/Gauravmrjatt/osm-forest}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\enlargethispage{4\baselineskip}
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{AWS Cloud Computing Certification} - JOVAC, GLA University \& Technical Guftgu (2025).}
+    \item {\textbf{Finalist} - WebX Frontend Challenge (2024); \textbf{4th place} - WebForge national-level web development competition (2025).}
+    \item {\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES (single closing line - RULE 5)
+% ============================================================
+
+\vspace{2pt}
+\small{Languages: Hindi (native), English (professional working proficiency).}
+
+\end{document}

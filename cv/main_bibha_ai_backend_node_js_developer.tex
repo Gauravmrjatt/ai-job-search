@@ -1,0 +1,151 @@
+%% CV - Gaurav Chaudhary
+%% Target: Backend Node.js Developer (listing published under the Bibha.ai
+%% label; the posting body describes Mastek and the employer is unresolved,
+%% so this CV makes no employer-specific claims at all)
+%% India, remote-first
+%% Compile with: lualatex -interaction=nonstopmode main_bibha_ai_backend_node_js_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+% Plain text bullets (RULE 2). Keep these three lines in every CV.
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+
+% No page numbers: they interrupt ATS parsing and create phantom holes.
+\nopagenumbers
+
+% Personal data (RULE 1 and 7).
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\extrainfo{Phone: +91-8077598311 \textbar{} Email: gauravmrjatt4@gmail.com \textbar{} \href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} \textbar{} \href{https://github.com/Gauravmrjatt}{GitHub} \textbar{} \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     SUMMARY (2-3 lines - RULE 4)
+% ============================================================
+
+\vspace{4pt}
+\small{Backend Developer working in Node.js, ES6+ and TypeScript, with over three years of freelance production delivery. Built and maintain a 145-endpoint Express.js and PostgreSQL backend with 23 Prisma models that has processed 1,000+ live orders, a 107-endpoint lead-tracking platform with Redis-cached hot reads and a RabbitMQ payout queue, and fault-tolerant Node.js services for high-concurrency events. Owns server-side work end-to-end: API design, schema and query work, JWT and Auth0-backed authentication, webhook processing, message queues, automated tests, CI/CD with Docker, and Prometheus, Grafana, Loki and Sentry observability. B.Tech CSE in progress, expected 2027; LeetCode 1,430 contest rating.}
+
+% ============================================================
+%     EDUCATION (right after summary for student profile - RULE 5)
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\cventry{2023-2027}{B.Tech, Computer Science and Engineering}{GLA University}{Mathura, India}{}{%
+In progress, expected 2027. Coursework: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.}
+
+% ============================================================
+%     CORE COMPETENCIES (compact labelled block - RULE 4)
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\raggedright
+\textbf{Backend Development:} Node.js, JavaScript (ES6+), TypeScript and Express.js, designing, implementing and maintaining server-side applications that run in production today \textbar{}
+\textbf{RESTful APIs \& GraphQL:} production REST API design across two backends of 145 and 107 endpoints, Apollo GraphQL APIs with WebSocket subscriptions, and webhook and postback handling for payment and partner events \textbar{}
+\textbf{Databases \& Query Work:} PostgreSQL (primary), MySQL and MongoDB with Prisma and Mongoose; schema design, query tuning and Redis caching of hot reads across a 23-model logistics schema and a 12-model tracking schema \textbar{}
+\textbf{Message Queues \& Event-Driven Services:} RabbitMQ queues for payout processing, Kafka event streaming, Redis pub/sub, WebSockets and Node.js Cluster; decoupled, fault-tolerant microservices and distributed-systems work split across API servers, workers and scheduled jobs \textbar{}
+\textbf{Authentication \& Authorization:} JWT and Auth0-backed flows, role-based access control, payment signature verification, KYC-gated order paths and automated fraud detection \textbar{}
+\textbf{Testing, CI/CD, Containers \& Observability:} an automated unit and integration test suite kept passing in a production repository, Docker containerization, GitHub Actions CI/CD, AWS EC2, NGINX and Linux; Prometheus, Grafana, Loki and Sentry monitoring
+\par\normalfont
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE (RULE 7)
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+
+% --- Most Recent Role ---
+\needspace{6\baselineskip}
+\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{\textbf{Cashbackwallah} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Designed and built the backend for a production logistics platform from scratch in Express.js, TypeScript, Prisma and PostgreSQL: 145 REST endpoints and 23 database models serving courier rate comparison, shipment booking, order management and a multi-level franchise commission system, with 1,000+ orders processed.}
+    \item {Implemented the money-movement layer end to end: a wallet and transaction ledger, KYC-gated order paths, automated payouts, webhook processing and scheduled refund workflows, with Razorpay payment signature verification on every callback.}
+    \item {Containerized services with Docker and ran CI/CD deployment on AWS EC2 and Linux, owning deployment and DevOps end to end with Sentry error monitoring. Demo: cashbackwallah.com}
+    \item {The backend is open source (github.com/Gauravmrjatt/cheapship, about 59,000 lines), which is where a reviewer can read the API structure, Prisma schema and query work directly.}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Previous Role ---
+\needspace{6\baselineskip}
+\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{\textbf{Dream10.in} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built fault-tolerant Node.js services for a real-time quiz platform serving high-concurrency events: Redis caching and pub/sub, a RabbitMQ queue for scoring and payout jobs, and WebSocket endpoints feeding live leaderboards.}
+    \item {Implemented automated payment and payout processing with retry-safe queue consumers, so a slow downstream payment call never blocked a live game request.}
+    \item {Owned CI/CD deployment and Docker-based service configuration for the release of each partner-facing event build. Demo: dream10.in}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Earliest Role, Ongoing ---
+\needspace{6\baselineskip}
+\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{\textbf{Lead Tracking System} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Originally built a production affiliate lead-tracking platform in 2023 and still maintain and extend it: 107 REST endpoints, 12 database models and about 31,000 lines, handling webhook and postback ingestion from partner networks around the clock.}
+    \item {Runs distributed background processing with a RabbitMQ payout queue, Redis-cached hot reads and Node.js Cluster workers, keeping slow payout jobs off the request path.}
+    \item {Implemented JWT and Auth0-backed authentication with role-based access control, automated fraud detection and Telegram alerting for operations.}
+    \item {Set up and maintained automated unit and integration tests, a 10-file suite kept passing alongside ongoing changes.}
+    \item {Deployment and monitoring ran on AWS EC2 and Linux with NGINX and Coolify; container work is Docker. Production monitoring uses Prometheus metrics, Grafana dashboards, Loki log aggregation and Sentry, supporting root-cause analysis of live incidents. Demo: panel5.logicpay.in}
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{School} (Nov 2025 - Present): school management API on Apollo GraphQL with WebSocket subscriptions over 10 Prisma models; Kafka carries attendance, exam-result and payment events and Redis pub/sub fans results out to subscribers. github.com/Gauravmrjatt/School}
+    \item {\textbf{CodeLab} (Jun 2025): collaborative coding platform on Node.js and Express with WebSockets and CRDT editing, and a Docker-sandboxed judge that runs Node, Python, Java and C++ submissions; about 32,000 lines across 23 routes. github.com/Gauravmrjatt/Codellab}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{AWS Cloud Computing Certification} - JOVAC, GLA University \& Technical Guftgu (2025).}
+    \item {\textbf{Finalist} - WebX Frontend Challenge (2024); \textbf{4th place} - WebForge national-level web development competition (2025).}
+    \item {\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES (single closing line - RULE 5)
+% ============================================================
+
+\vspace{2pt}
+\small{Languages: Hindi (native), English (professional working proficiency).}
+
+\end{document}

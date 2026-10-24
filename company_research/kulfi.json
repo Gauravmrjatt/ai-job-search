@@ -1,0 +1,16 @@
+{
+  "company": "Kulfi (WooshAuto Internet Private Limited)",
+  "fetched_date": "2026-10-22",
+  "sources": {
+    "website": {"url": "kulfi.club", "notes": "Official site. Two-phone couple games; 'new games releasing every week'; 'Trusted by 125K+ couples'; careers via app.dover.com/jobs/Kulfi."},
+    "reviews": {"url": "play.google.com/store/apps/details?id=com.kulfi.app", "notes": "Official Play listing (fetched 2026-10-22): 5L+ (500K+) downloads, ~3.9K reviews, ~3.9 rating, updated 17 Oct 2026. 2026 reviews report glitches; dev replies actively to reviews. Dev: WooshAuto Internet Pvt Ltd, Lucknow UP."},    "linkedin": {"url": "in.linkedin.com/company/kulfi-app", "notes": "~2,255 followers. Co-founder Garvit Agarwal: 'backed by South Park Commons'; Co-Founder Jan 2025-Present. Founder essay on Next Up India Substack."},
+    "media": {"url": "wellfound.com/company/kulfi-app/funding", "notes": "$400K Pre-Seed, Mar 2026, South Park Commons (snippet; site blocks non-browser fetch)."}
+  },
+  "company_facts": {
+    "verified": ["Product: two-phone couple games over video/audio call (official site + Play)", "Legal entity WooshAuto Internet Pvt Ltd (Play dev info + site footer)", "Backed by South Park Commons (co-founder LinkedIn + Wellfound: $400K pre-seed Mar 2026)", "500K+ Google Play downloads (official listing)", "New games weekly / 'New Games on Fridays' (official site AND Play)", "Small team; founders say 'three of us built Kulfi' (Play listing)"],
+    "unverified": ["'Close to a million people use it': NOT verified; official site says 125K+ couples (~250K people), Play 5L+ downloads", "'Daily users grew 4x in 30 days'; '100,000 users in 20 days of August'; '80% of play 9pm-midnight': all company-sourced only", "Angel backers from Swiggy, Mosaic Wellness, Snitch, Moonshot: not found in independent coverage", "'New game in about two days': CONTRADICTED by official sources, which say weekly", "AI personalization engine (roadmap claim tied to this cadence)"],
+    "conflict_note": "Posting's usage/growth numbers exceed every checkable source and the 'game every two days' cadence conflicts with the company's own weekly claim; treat posting metrics as marketing, use official-site facts in artifacts."
+  },
+  "culture_notes": "Young tiny pre-seed team (founders: three built it), high intensity; a company job ad says 'We work 996 because what we are building is worth it'. Playful founder-voiced brand (X bio 'mild chaos guaranteed'; X lists New Delhi, legal entity Lucknow, role Jayanagar Bengaluru in-office). Replies personally to Play reviews. No calls/WhatsApp per posting.",  "red_flags": ["~1M users claim overstated vs official site (125K+ couples) and Play (5L+ downloads)", "Cadence mismatch: posting ~2 days per new game vs company weekly", "996 hours language in a company job ad", "$400K pre-seed; compensation risk on fixed-pay floor; ESOPs over fixed pay", "Active user complaints about glitches in 2026 Play reviews"],
+  "network_contacts_note": "No network contacts recorded in profile for Kulfi/WooshAuto."
+}

@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Signzy, Frontend Developer (React.js)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it.
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://gauravmrjatt.vercel.app}{Portfolio}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Signzy Hiring Team,}
+
+\lettercontent{I am applying for the Frontend Developer - React.js opening in Bengaluru. Over three years of freelance delivery I have built and shipped production React and Next.js frontends end to end, which is the core of what this role asks for.}
+
+\lettercontent{Recent work that maps to the role:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Frontend for a live logistics platform (Cashbackwallah, cashbackwallah.com):} a Next.js 16 and TypeScript client integrated against 145 REST endpoints backed by 23 Prisma models, covering courier rate comparison, booking, order management, and a franchise commission flow; 1,000+ orders processed.
+    \item \textbf{Instant-panel admin dashboards (panel5.logicpay.in, open source):} real-time dashboards, fraud alerts, and a role-based access control UI over a 107-endpoint API kept fast by Redis-cached hot reads.
+    \item \textbf{Real-time UI for Dream10.in:} live leaderboards and WebSocket-driven screens wired to automated payment and payout flows.
+    \item \textbf{Component libraries:} an 80-component file manager (Data Vault) and a 63-component personal site.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Your posting asks for strong React.js and JavaScript expertise to build modern, scalable, high-performance web applications with seamless, responsive user experiences. That is the work I have done on every project: I chose the stack, designed the reusable components, and reviewed each change against production consequences before shipping. Delivery ran in short iterations against client feedback. On the logistics platform I built responsive flows for courier comparison, booking, and order tracking; on the lead-tracking panel I shipped data-heavy admin screens with role-based access and Redis-cached reads.}
+
+\lettercontent{Signzy's focus on scalable, responsive web applications is the kind of frontend ownership I want to bring: clean component architecture, predictable state management with hooks, Zustand, and TanStack Query, and careful integration against REST APIs, with performance handled through caching and sensible loading states.}
+
+\lettercontent{I am based in Mathura and open to relocating to Bengaluru for the right role.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

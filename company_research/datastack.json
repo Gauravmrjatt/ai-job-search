@@ -1,0 +1,34 @@
+{
+ "company": "Datastack Technologies Pvt. Ltd.",
+ "fetched_date": "2026-10-22",
+ "sources": {
+  "website": {
+   "url": "https://datastack.tech/",
+   "notes": "Fetched 2026-10-22 (WebFetch failed; HTTP 200 via curl browser headers; robots.txt absent). VERIFIED: pharma/healthcare data analytics; 'past five years' consistent with 2019 incorporation. Products: Thunderbolt, Aquaduct, Pulse IQ (IQVIA Xponent dashboards), OneView (pharma-manufacturer analytics), AMS 360, Mastersheets, V-Connect. Site stack: PostgreSQL, Apache Pinot, Talend, Apache Superset, Apache Flink, Docker, Kubernetes. Verified testimonial: Ipca Laboratories (CIO Ashok Nayak), cGMP/access-management digitization. Offices: Jersey City NJ and Pune (B-115, GO Square, Wakad Road, Pune 411057)."
+  },
+  "registry": {
+   "url": "https://www.zaubacorp.com/DATASTACK-TECHNOLOGIES-PRIVATE-LIMITED-U72200PN2019PTC188782",
+   "notes": "Fetched 2026-10-22. VERIFIED entity: DATASTACK TECHNOLOGIES PRIVATE LIMITED, CIN U72200PN2019PTC188782, incorporated 31 Dec 2019, ROC Pune, Active, unlisted, paid-up Rs 2,00,000. Registered office matches the website's Pune address (GO Square, Wakad, 411057). NIC 722 software. Directors: Sonali Rajesh Chaudhari, Shanta Shekar Hegde (both since inception)."
+  },
+  "reviews": {
+   "url": "https://www.ambitionbox.com/reviews/datastack-technologies-reviews/pune-location",
+   "notes": "Fetched 2026-10-22 via curl after WebFetch 403. Pune overall 2.9/5 from only 6 reviews (company-wide 3.5 from 9); tiny sample, low confidence. Sub-ratings: job security 4.9, skill development 3.9, culture 2.8, satisfaction/salary/balance/promotions 2.7. Positives: learning, building from scratch, flexible timings, 5-day week. One 5/5 Sep 2025 review from a 'Front end Developer' in Pune."
+  },
+  "linkedin": {
+   "url": "https://www.linkedin.com/company/datastacktechnologies",
+   "notes": "NOT fetched (login wall expected). Snippet lead only: 'customized data analytics solutions and sophisticated enterprise applications'; snippet is a lead, not a fact."
+  },
+  "media": {
+   "url": null,
+   "notes": "No independent media coverage found 2026-10-22."
+  }
+ },
+ "red_flags": [
+  "Posting contradiction: header '5+ Years' vs Required Skills '2+ years' vs Naukri slug '1-to-4-years'",
+  "No compliance filings since FY2023 (last AGM Sep 2023, last balance sheet Mar 2023 per ZaubaCorp, data dated 2026-07-13) while status stays Active",
+  "Rs 2,00,000 capital and a 6-review footprint mean a very small company; calibrate the posting's leadership language",
+  "Identity caveat: datastack.tech shows a Jersey City HQ plus Pune office; any separate US parent/affiliate is NOT VERIFIED",
+  "Core domain is pharma/healthcare analytics (HIPAA, IQVIA, cGMP), not generic web product work"
+ ],
+ "culture": "Small Pune product/analytics shop in US-facing healthcare data. Reviews (n=6, mostly pre-2026): strong on job security, learning, building from scratch; weak on salary and promotions. 5-day week, flexible timings. No large-team process evidence."
+}

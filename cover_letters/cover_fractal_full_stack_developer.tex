@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Fractal, Full Stack Developer
+% Bengaluru, Karnataka, India
+% Compile with: xelatex -interaction=nonstopmode cover_fractal_full_stack_developer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{0.95}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one.
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\currentdate{\today}
+\lettercontent{Dear Fractal Hiring Team,}
+
+\lettercontent{I am applying for the Full Stack Developer position in Bengaluru. I have built and maintained production full-stack applications in Node.js, React, and TypeScript for over three years as a freelance developer, and the scope you describe, developing AWS Lex chatbot workflows, integrating backend services, and running DevOps and cloud operations, is the kind of end-to-end ownership I already hold for my clients. My recent work includes a real-time quiz platform on WebSockets, RabbitMQ, and Redis, and a lead-tracking platform with 107 REST endpoints and Prometheus and Grafana monitoring. Across these projects I owned architecture, integrations, deployment, and monitoring end to end.}
+
+\lettercontent{What I would bring to your chatbot and cloud platform:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Full-stack delivery:} I built a logistics platform from scratch (Next.js 16, React, TypeScript, Express.js, Prisma, PostgreSQL) with 145 REST endpoints and 1,000+ orders processed, including a multi-level franchise commission system.
+    \item \textbf{Backend integration:} I integrated Shiprocket, Razorpay (payment signature verification), Firebase OTP, Redis, and Sentry into production systems, with wallet and transaction ledgers, KYC-gated orders, automated payouts, webhook processing, and scheduled refunds.
+    \item \textbf{DevOps and cloud:} I containerize services with Docker, deploy on AWS EC2 and Linux with NGINX, and manage CI/CD with GitHub Actions, with Prometheus, Grafana, Loki, and Sentry watching production. I hold an AWS Cloud Computing certification (JOVAC, 2025).
+    \item \textbf{Chatbot-adjacent work:} I have built real-time, event-driven systems (WebSockets, RabbitMQ, Kafka, Redis pub/sub) and integrated the Telegram Bot API in Data Vault, so connecting conversational interfaces to backend services is familiar territory.
+    \item \textbf{Databases and testing:} PostgreSQL, MongoDB, MySQL, and Redis in production, with Prisma and Mongoose, plus automated test suites (10-file suite on my lead-tracking platform).
+\end{itemize}\par}
+\vspace{2pt}
+
+\lettercontent{To be direct about two gaps: I have not shipped production chatbots on AWS Lex yet, and my CI/CD pipelines run on GitHub Actions rather than Jenkins. My AWS exposure today is EC2 and cloud deployment, and I close tool gaps quickly on live systems because the underlying skills, REST API design, backend integration, Docker, and cloud operations, are already in daily use. I also work directly with clients and external service teams such as Shiprocket and Razorpay, iterating on feedback across distributed partners.}
+
+\lettercontent{Fractal's focus on AI and analytics, and the chance to build chatbot solutions for global clients, is exactly the kind of work I want to grow into. I am based in Mathura, Uttar Pradesh, and will relocate to Bengaluru for this role. I would welcome the opportunity to discuss how my background in full-stack delivery, payments, and DevOps can best support your team.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

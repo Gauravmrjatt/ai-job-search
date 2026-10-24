@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Qode Advisors LLP, Junior Full Stack Developer
+% Mumbai, India
+% Compile with: xelatex -interaction=nonstopmode cover_qode_junior_full_stack_developer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one.
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Qode Advisors Hiring Team,}
+
+\lettercontent{I am applying for the Junior Full Stack Developer position in Mumbai. I have built and maintained production web applications as a freelance developer in React, Next.js, Node.js, and TypeScript for over three years, and the posted scope, developing scalable web applications and responsive user interfaces, is exactly the work I already do for my clients. I am comfortable working independently once clear specifications are in place.}
+
+\lettercontent{What I would bring to your applications:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Full-stack delivery:} I built and shipped a logistics platform (Next.js, Express.js, Prisma, PostgreSQL) with courier comparison, shipment booking, and a franchise commission system; it has processed 1,000+ orders across 145 REST endpoints.
+    \item \textbf{Responsive UI:} I work daily in React 19 and Next.js 15/16 with Tailwind CSS, building mobile-friendly dashboards, forms, and onboarding flows that hold up on small screens.
+    \item \textbf{Independent ownership:} as a solo freelancer I take a feature from schema and API through UI, integrations, deployment, and monitoring, with CI/CD on GitHub Actions and observability via Sentry.
+    \item \textbf{Data layer:} production experience with PostgreSQL and MongoDB using Prisma and Mongoose, plus Redis for caching and background processing.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I am drawn to Qode Advisors because the role asks for exactly what I do best: shipping full-stack features with clear specifications, across a modern web stack, and learning the domain deeply as I go. I bring a strong computer science foundation (B.Tech CSE, expected 2027) and a 1,430 LeetCode contest rating, and I am a motivated, curious developer who closes tool gaps quickly on live systems.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and I am open to relocating to Mumbai for this role.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

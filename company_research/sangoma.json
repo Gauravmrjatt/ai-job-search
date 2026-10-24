@@ -1,0 +1,36 @@
+{
+  "company": "Sangoma Technologies Corporation",
+  "fetched": "2026-10-22",
+  "verified_facts": [
+    "Canadian communications company founded 1984; incorporated in Ontario; corporate HQ Markham, Ontario (US head office Sarasota, FL). Publicly traded on TSX (STC) and Nasdaq (SANG) since Dec 2021. (sangoma.com IR page; SEC 40-F FY2025)",
+    "Business communications platform provider: UCaaS, CCaaS, CPaaS, Trunking as a Service, video/messaging; sold cloud, hybrid, or on-premises; plus managed services (SD-WAN, network security, connectivity). (sangoma.com; SEC filing)",
+    "Primary developer and sponsor of the open-source Asterisk and FreePBX projects; grew via acquisitions incl. Digium (2018), Star2Star (2021), NetFortris, VoIP Innovations. (SEC 40-F; Wikipedia)",
+    "Scale: 2.7M+ UC seats, 100k+ customers, 40+ years on the market; nine years in Gartner UCaaS Magic Quadrant (as stated in FY2025 results PR, Sep 2025).",
+    "Fiscal year ends June 30; FY2025 results published Sep 2025; no dividends in last 3 years, retains earnings to pay down debt (SEC AIF FY2026).",
+    "Asked for in cultural brand terms: integrity, accountability, teamwork (Workable employer page)."
+  ],
+  "india_presence": [
+    "Bengaluru office (listed on sangoma.com/contact-us): Wellington Accord, Ground Floor, No. 14/2 Wellington Street, Richmond Town, Bengaluru, Karnataka 560025.",
+    "Also a New Delhi office (Madangir, per Glassdoor office list) plus offices in Markham, Sarasota, Huntsville, Pittsburgh, Atlanta, New Jersey, Michigan, Sydney, Manila, Dublin, Wokingham, Colombia, Hong Kong.",
+    "Local entity name 'Sangoma Technologies Pvt. Ltd.' (business directory; weaker source, verify in interview)."
+  ],
+  "culture": [
+    "Careers pages emphasize tightly-knit distributed teams across time zones, existing alongside an in-office Bengaluru requirement in this posting.",
+    "Role sits in 'Internal Systems and Infrastructure' department on Sangoma's own Workable listing; scope is support, enhance, and maintain business-critical web apps for a global communications platform.",
+    "Deep telecom/VoIP heritage (SIP, SBC, gateways) alongside the newer web application work named in this posting."
+  ],
+  "red_flags": [
+    "Headcount has contracted (stockanalysis ~569, Built In ~621) after acquisition-led reorganizations and cost rationalization; candidates often describe this as a leaner, more support-heavy environment.",
+    "This posting stresses maintain/support of existing business-critical apps; it includes new feature work, but flag against the candidate's 'no maintenance-only roles' line (not pure maintenance, but similar phrasing).",
+    "Explicit onsite requirement: 'Able to go into the office' (Bengaluru).",
+    "Some contact-page and directory data is stale (several offices dated 2024); don't lean on office lists in the letter."
+  ],
+  "sources": [
+    "https://sangoma.com/company/about-us/ (WebFetch)",
+    "https://sangoma.com/company/investor-relations/ (WebFetch)",
+    "https://sangoma.com/company/press-releases/sangoma-announces-fourth-quarter-and-fiscal-year-2025-results/ (WebSearch)",
+    "https://www.sec.gov/Archives/edgar/data/1753368/000175336826000011/aif-f26q4.htm (SEC AIF, FY2026; WebSearch)",
+    "https://sangoma.com/contact-us/ (WebSearch; WebFetch)",
+    "https://stockanalysis.com/stocks/sang/company/ and builtin.com/company/sangoma (headcount, offices)"
+  ]
+}

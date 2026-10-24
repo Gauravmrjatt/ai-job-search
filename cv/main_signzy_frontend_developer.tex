@@ -1,0 +1,154 @@
+%% CV - Gaurav Chaudhary
+%% Tailored for: Signzy - Frontend Developer (React.js), Bengaluru, India
+%% Compile with: lualatex -interaction=nonstopmode main_signzy_frontend_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+% Plain text bullets (RULE 2). Keep these three lines in every CV.
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+
+% No page numbers: they interrupt ATS parsing and create phantom holes.
+\nopagenumbers
+
+% Personal data (RULE 1 and 7).
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\extrainfo{Phone: +91-8077598311 \textbar{} Email: gauravmrjatt4@gmail.com \textbar{} \href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} \textbar{} \href{https://github.com/Gauravmrjatt}{GitHub} \textbar{} \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     SUMMARY (2-3 lines - RULE 4)
+% ============================================================
+
+\vspace{4pt}
+\small{Full-Stack Developer with over three years of freelance delivery on production React/Next.js platforms: reusable components, state management, and REST integration against 100+ endpoint backends. Strong in React.js, JavaScript, TypeScript, Tailwind CSS, and Material UI. B.Tech CSE, GLA University, in progress, expected 2027.}
+
+% ============================================================
+%     EDUCATION (right after summary for student profile - RULE 5)
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\cventry{2023-2027}{B.Tech, Computer Science and Engineering}{GLA University}{Mathura, India}{}{%
+In progress, expected 2027. Coursework: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.}
+
+% ============================================================
+%     CORE COMPETENCIES (compact labelled block - RULE 4)
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\raggedright
+\textbf{React.js \& Next.js:} React 19, Next.js 15/16, component lifecycle, hooks, and reusable component architecture; shipped production applications built on reusable component sets of 80 and 63 components \textbar{}
+\textbf{JavaScript \& TypeScript:} production codebases in both; asynchronous JavaScript across WebSocket live data, webhook-driven flows, and background queues \textbar{}
+\textbf{State Management:} React hooks, Zustand, and TanStack Query for server state; application-level error handling around async data flow \textbar{}
+\textbf{Responsive Web Design:} HTML5, CSS3, Tailwind CSS, and Material UI; responsive admin dashboards and consumer-facing layouts \textbar{}
+\textbf{RESTful API Integration:} production integrations across a 145-endpoint platform and a 107-endpoint admin panel, plus Razorpay, Shiprocket, and Firebase OTP integrations \textbar{}
+\textbf{Performance \& Tooling:} Git, GitHub Actions CI/CD, npm, Docker; Redis caching of hot reads behind the API layer; production issue tracking via Sentry and Prometheus/Grafana dashboards
+\par\normalfont
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE (RULE 7)
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+
+% --- Most Recent Role ---
+\needspace{6\baselineskip}
+\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{\textbf{Cashbackwallah} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built the production Next.js 16 frontend for a logistics platform (TypeScript client over an Express.js, Prisma, and PostgreSQL backend): courier rate comparison, shipment booking, order management, and a multi-level franchise commission flow; the platform has processed 1,000+ orders. Demo: cashbackwallah.com}
+    \item {Integrated the client against 145 REST endpoints backed by 23 Prisma models, handling asynchronous data flow, webhook-driven status updates, and application-level error scenarios.}
+    \item {Implemented role-based access for customers, couriers, and multi-level franchise users, plus wallet, ledger, KYC-gated ordering, payout, and refund screens with Razorpay and payment signature verification.}
+    \item {Owned the open-source codebase (github.com/Gauravmrjatt/cheapship, about 59,000 lines) end to end, including CI/CD deployment with GitHub Actions.}
+\end{itemize}}
+
+\vspace{1pt}
+
+% --- Previous Role ---
+\needspace{6\baselineskip}
+\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{\textbf{Dream10.in} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Shipped the frontend for a production real-time quiz platform: live leaderboards and WebSocket-driven screens under high-concurrency event handling, plus automated payment and payout flows. Demo: dream10.in}
+    \item {Managed CI/CD deployment and fault-tolerant services (Next.js, Node.js, Redis, RabbitMQ) alongside the real-time client.}
+\end{itemize}}
+
+\vspace{1pt}
+
+% --- Earlier Role ---
+\needspace{6\baselineskip}
+\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{\textbf{Lead Tracking System} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built and continue to maintain a production affiliate lead-tracking platform (github.com/Gauravmrjatt/instant-panel, about 31,000 lines, 107 endpoints): real-time dashboards, automated fraud detection alerts, webhook/postback handling screens, and a role-based access control admin UI. Demo: panel5.logicpay.in}
+    \item {Kept frequently accessed screens fast with Redis-cached hot reads behind the API, and moved payouts through a RabbitMQ queue so slow operations never block the interface; produced monitoring with Prometheus, Grafana, and Loki, and a 10-file test suite.}
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{Data Vault} (Mar 2025): privacy-focused file manager in Next.js with Telegram-backed encrypted storage; 80 UI components. Demo: datavault-two.vercel.app}
+    \item {\textbf{TicketHub}: ticketing app on Next.js 15 and React 19, 16 endpoints and 5 models; live at ticket-hub-ten.vercel.app.}
+    \item {\textbf{CodeLab} (Jun 2025): collaborative coding platform with CRDT-based real-time multi-user editing, contest and testcase management, invite-based collaboration, and a Docker-sandboxed judge running Node, Python, Java, and C++; about 32,000 lines with 23 routes. Demo: codelab.logicpay.in}
+    \item {\textbf{EcoFinds}: marketplace web app; live at eco-finds-sage.vercel.app.}
+    \item {\textbf{Earning Area} (Aug 2021): gamified rewards platform with PHP, MySQL, and the Paytm API; my first end-to-end payment integration. Demo: earningarea.org}
+    \item {\textbf{Portfolio}: 63-component personal site in Next.js; gauravmrjatt.vercel.app.}
+    \item {\textbf{School} (Nov 2025 - Present): school management API using Apollo GraphQL with WebSocket subscriptions over 10 Prisma models. Repo: github.com/Gauravmrjatt/School}
+    \item {\textbf{OSM Fortress} (May 2026): gift-code distribution service with proof-of-work gating, anti-scraping layers, and device fingerprints; 66 routes, about 58,000 lines. Repo: github.com/Gauravmrjatt/osm-forest}
+    \item {\textbf{NEET Counsellors} (Jun 2026 - Aug 2026; dates from GitHub, client/ownership confirmation pending): counselling platform (Next.js, Payload CMS) plus a rule-based college predictor pipeline. Repo: github.com/Gauravmrjatt/neet}
+    \item {\textbf{Tod AI}: 45-component frontend with a live deployment.}
+    \item {\textbf{Additional repositories} (github.com/Gauravmrjatt): Job-Portal, Chat-App, url-shortner, WalletFlow, Expense, LemonBooking, Result-App.}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{Finalist} - WebX Frontend Challenge (2024, frontend challenge by a competitive coding community).}
+    \item {\textbf{4th place} - WebForge (2025, national-level web development competition); \textbf{4th place} - Code Arambh (2024).}
+    \item {\textbf{AWS Cloud Computing Certification} - JOVAC (2025), GLA University and Technical Guftgu.}
+    \item {\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES (single closing line - RULE 5)
+% ============================================================
+
+\vspace{1pt}
+\small{Languages: Hindi (native), English (professional working proficiency).}
+
+\end{document}

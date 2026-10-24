@@ -1,0 +1,29 @@
+{
+  "company": "Navi",
+  "fetched": "2026-10-22",
+  "role_target": "SDE I (Frontend) / UI Engineer I",
+  "apply_route": "https://navi.turbohire.co (TurboHire board, orgId 3e818601-0baa-429c-b6f8-4b21903ae0e6) or https://navi.com/careers/jobs - re-verify role still live before submitting (one aggregator flagged a syndicated copy expired on 2026-10-21)",
+  "sources": {
+    "posting": "documents/applications/navi_sde_i_frontend/job_posting.md (lets-code.co.in, dated 2026-08-13)",
+    "company_site": "https://navi.com (homepage fetched 2026-10-10), https://navi.com/careers, https://navi.com/careers/jobs",
+    "linkedin": "linkedin.com/company/go-navi: founded 2018, Bangalore HQ, 1,001-5,000 employees"
+  },
+  "facts": [
+    "Navi is a technology-driven financial services company founded in 2018 by Sachin Bansal and Ankit Agarwal; headquartered in Bengaluru; now 'Navi Limited (formerly known as Navi Technologies Ltd)'; 1,001-5,000 employees.",
+    "Mission language used on careers site: simplifying finance for a billion people.",
+    "Products verified on navi.com: lightning-fast UPI payments, instant cash loans and home loans, mutual funds and digital gold investments, comprehensive health insurance, bills and recharges - all in one app.",
+    "Posting states Navi operates across Loans, UPI, Insurance, Mutual Funds, and Digital Gold, serving millions of customers across India.",
+    "Navi OS core values (from posting): Start with the Customer; Master the Details; Act with Urgency; Own the Outcome; Build for a Decade, Not a Day; Win as One.",
+    "Posting benefits: flexible leave, health and wellness benefits, ESOPs, gym and sports facilities, focus zones, nap rooms.",
+    "Role: UI Engineer I (board title SDE I (Frontend)), Bengaluru on-site; 0-2 years of frontend engineering experience including internships, academic projects, or personal projects.",
+    "Posting technical requirements: JavaScript fundamentals (closures, scope, event loop, asynchronous JavaScript, prototypes, this), React.js or similar, components/props/state/rendering/data flow, basic web performance, awareness of TDD, browser developer tools, clear communication.",
+    "Posting asks for unit tests covering happy paths, edge cases, and error scenarios; higher-level tests with senior guidance.",
+    "Aggregated salary numbers conflict (one aggregator: 6-10 LPA; another: 18-28 LPA expected) while the posting says Not specified - treat salary as unspecified; never claim."
+  ],
+  "claims_forbidden": [
+    "any salary figure (conflicting aggregator data; posting unspecified)",
+    "TDD or automated testing practice (awareness only; do not claim hands-on testing depth)",
+    "fintech employment history (candidate's payments work is freelance projects, not fintech employers)",
+    "any company fact not listed above"
+  ]
+}

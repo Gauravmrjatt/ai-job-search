@@ -1,0 +1,14 @@
+{
+ "company": "GoML",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://www.goml.io/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: AI systems implementation company, headline 'The AI Development Company | Leading AWS Gen AI Partner'. VERIFIED: 'GoML achieves AWS Healthcare Competency'. VERIFIED: offices - HQ '1178 Broadway, 3rd Floor #3341, New York, NY 10001' and India 'KovAI works, 348, Kamarajar Road, Varadharaja Puram, Coimbatore, Tamil Nadu 641015'. VERIFIED: internal developer platform 'AI Matic' with six industry blueprints; stats '130+ AI Systems Implemented', '63 Days average AI systems delivery', '82% of POCs move to production'. VERIFIED: services include 'Claude Agent Development', AWS AI Services, MCP Server Development, Amazon Bedrock migration. VERIFIED homepage case studies: Bosch (80% reduction in manual effort, 6-week conversational agent), Rakuten (AI agents in 1 week across 4 departments), Atria (85% faster medical documentation). Footer legal entity: 'Neuralgo Inc.'"
+  },
+  "posting": {
+   "url": "https://in.linkedin.com/jobs/view/frontend-developer-at-goml-4476171032",
+   "notes": "LinkedIn detail fetched 2026-10-10 via linkedin-search detail 4476171032. Role: Frontend Developer, location 'India', Full-time, active. Must-have: 3-7 years frontend experience; JS, React.js, ES6+, MERN hands-on, HTML5/CSS3, Redux/MobX 'or similar' state management, RESTful APIs and exposure to GraphQL, JWT auth, Webpack/Babel/npm tooling. Nice-to-have: SSR and Node.js, testing (Jest, React Testing Library), Git, performance tuning. 30/60/180-day plan includes mentoring juniors and influencing UI architecture by day 180. 'Remote-first culture with office in Coimbatore'; 'competitive compensation, career growth opportunities, and ESOPs down the line'. Their stack mentions GraphQL endpoints."
+  }
+ }
+}

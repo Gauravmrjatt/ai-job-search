@@ -1,0 +1,14 @@
+{
+ "company": "HackerKernel",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://www.hackerkernel.com/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: India-based software development company, contract hiring model ('Hire Software & App Developers on Contract Basis'). VERIFIED: stats '150+ Happy Clients', '200+ Projects Delivered'. VERIFIED: services include React JS, MERN, Node JS, Laravel, Flutter, Angular, PHP, Salesforce, web/mobile app development, AI and Machine Learning services. VERIFIED case study Fast2sms: 'processes more than 10 Lakh SMS per day and has more than 4 lakh active users', legacy site backend remodelled with ML/AI capabilities. Industries: foodtech, traveltech, fintech, real estate, education, healthcare, e-commerce, media."
+  },
+  "posting": {
+   "url": "https://in.linkedin.com/jobs/view/react-or-node-developer-at-hackerkernel-4475203188",
+   "notes": "LinkedIn detail fetched 2026-10-10 via linkedin-search detail 4475203188. Role: React or Node Developer, full-time, on-site, Bhopal Madhya Pradesh India. Posting's company blurb: 'team of 120+ engineers', clients across US/UK/UAE/Australia, 'Over 60 companies', official Salesforce partner. Qualifications: strong front-end ideally React and modern JS; solid back-end preferably Node.js; clean code, testing, version control; advanced JavaScript; state management such as Redux; RESTful APIs/JSON/third-party integrations; relational or NoSQL databases and schema design; performance, security, responsive design; Bachelor's CS/Engineering 'or equivalent practical experience'; prior product or agency environment and agile 'is beneficial'. NO years-of-experience bar."
+  }
+ }
+}

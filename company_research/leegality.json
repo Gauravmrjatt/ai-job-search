@@ -1,0 +1,23 @@
+{
+  "company": "Leegality (Grey Swift Private Limited)",
+  "fetched_date": "2026-10-23",
+  "sources": {
+    "website": {
+      "url": "https://www.leegality.com/privacy-policy",
+      "notes": "Legal entity Grey Swift Private Limited confirmed on leegality.com privacy-policy, responsible-disclosure and ToS pages; d.b.a. Leegality (also Bloomberg profile). Products: Document Execution Workflow, Contract Management, Signstation, Consentin (DPDP/privacy), Consentin Lens (data discovery); consent product site is consent.in. Incorporated 15 Nov 2016 (CIN U74999HR2016PTC066380, Zaubacorp)."
+    },
+    "culture": {
+      "url": "https://www.leegality.com/culture",
+      "notes": "Culture page (2026-10-23): 'Leegality follows a remote-first-hybrid model. Once a quarter, we spend a week together at our head office to collaborate.' Matches CV header comment; posting also states Hybrid work setup perk."
+    },
+    "union_bank_engagement": {
+      "url": "https://www.business-standard.com/content/press-releases-ani/union-bank-of-india-selects-leegality-s-consentin-platform-for-dpdp-compliance-126071400535_1.html",
+      "notes": "Press release dated 2026-07-14 (also PTI, ET BFSI, consent.in newsroom): Union Bank of India engaged Leegality to implement Consentin for DPDP compliance; Cookie Consent already live on UBI's Corporate Website. Confirms cover-letter claim. Background: UBI RFP for consent-management tool (GeM)."
+    },
+    "dpdp_deadline": {
+      "url": "https://www.fisherphillips.com/en/insights/insights/indias-new-data-privacy-rules-are-here",
+      "notes": "Multiple sources (Fisher Phillips, Osano, ispectratechnologies, Aug 2026 compliance blogs): DPDP full-compliance deadline for covered businesses is 13 May 2027; Consent-Manager framework applies earlier, from 13 Nov 2026. Confirms cover-letter 'DPDP deadline of May 13, 2027' as the operative business deadline."
+    }
+  },
+  "network_contacts_note": "No insider contacts on record for Leegality."
+}

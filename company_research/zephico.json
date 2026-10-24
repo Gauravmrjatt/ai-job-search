@@ -1,0 +1,14 @@
+{
+ "company": "Zephico",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://zephico.com/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: 'Zephico Technologies - Certified Engineers on Contract & Custom Software'; self-describes as a 'Databricks Consulting Partner' placing certified Databricks, AWS and Retool engineers into North American and European teams and delivering custom software, data platforms and internal tools. VERIFIED: base 'Ahmedabad -> worldwide'; offices/timezones listed Ahmedabad, New York, London, Berlin. VERIFIED stats: '50+ Projects delivered', '25+ Happy clients', '100% Client satisfaction'. VERIFIED certifications: Databricks Certified Data Engineer, AWS Certified Engineers, Microsoft Fabric Certified Engineers, Retool Certified Developer. VERIFIED services: Engineers on Contract, Custom Software Development, Data Engineering on Databricks, Internal Tools with Retool, E-commerce with Saleor & Django, Cloud & DevOps on AWS, Data Analytics & AI, GDPR compliance; 'GDPR-compliant - ISO 27001-aligned'. VERIFIED stack: Databricks, AWS, Azure Data Factory, Retool, Django, Saleor, Python, React, Node.js, PostgreSQL, Docker, Kubernetes, Terraform. VERIFIED contact info@zephico.com, 'Ahmedabad, Gujarat, India', legal 'Zephico Technologies Private Limited' (CIN U62099GJ2025PTC166524). VERIFIED site banner '3 open roles for engineers in India'. VERIFIED case: multi-tenant SaaS for an Indian jewellery-tech startup (Node.js, React Native); Retool ops console shipped in two weeks."
+  },
+  "posting": {
+   "url": "https://in.linkedin.com/jobs/view/retool-full-stack-developer-at-zephico-4477661468",
+   "notes": "LinkedIn detail fetched 2026-10-10 via linkedin-search detail 4477661468. Role: Retool / Full-Stack Developer, active. Work: internal tools (admin panels, approval workflows, support consoles) primarily in Retool wired to production databases and APIs; rebuild in React when a tool outgrows Retool; Retool apps on PostgreSQL, warehouses, third-party APIs; role-based access, audit logging, approval workflows; JavaScript and SQL; client ops-team communication; 'Contribute to conventional Django/React builds between tool projects'. Requirements: '2-5 years in full-stack or internal-tools development'; 'Strong SQL and JavaScript fundamentals - Retool experience is a plus, not a requirement; we'll train and certify you'; product sense; clear written/spoken English. Offer: 'Retool certification paid for, plus AWS or Databricks certification'; 'Structured US/EU timezone overlap, async everything else'. APPLY INSTRUCTION (posting): email CV to info@zephico.com with subject 'Application: Retool / Full-Stack Developer'. No salary stated. No years beyond 2-5. No location stated in description body (search facet said Ahmedabad, Gujarat, India)."
+  }
+ }
+}

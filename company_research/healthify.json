@@ -1,0 +1,20 @@
+{
+  "company": "Healthify",
+  "company_note": "formerly HealthifyMe; Bengaluru healthtech; legal entity HealthifyMe Wellness Private Limited",
+  "fetched_date": "2026-10-23",
+  "sources": {
+    "website": {"url": "https://www.healthify.com/", "access": "2026-10-23", "notes": "fetched with browser UA (WebFetch got 403)"},
+    "app_listing": {"url": "https://play.google.com/store/apps/details?id=com.healthifyme.basic", "access": "2026-10-23", "notes": "company-controlled listing text"},
+    "media": {"url": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/", "access": "2026-10-23", "notes": "merger news, headline only"},
+    "hq_address": {"url": "https://www.healthifyme.com/in/", "access": "2026-10-23", "notes": "contact page address"}
+  },
+  "verified_facts": [
+    "Homepage banner: 'Healthify and Berry Street Are Coming Together - Creating the Most Advanced Insurance-Covered AI Metabolic Health Platform'",
+    "AI coach is named Ria ('Talk to AI Coach Ria'); photo meal-tracking feature is HealthifySnap ('Try HealthifySnap')",
+    "App claims 40 million+ users ('Join over 40 million users'); AppBrain lists 10,000,000+ downloads",
+    "Berry Street merger confirmed Aug 2026 (TechCrunch 2026-08-24): US nutrition startup merges with Healthify; Berry Street has 2,000+ clinics, insurance-covered GLP-1 care",
+    "Office address: No. 30, 80 Feet Road, HAL 3rd Stage, Indiranagar, Bengaluru 560075 (LinkedIn also lists HAL 2nd Stage, Indiranagar)",
+    "UNVERIFIED: '17 million downloads' - found in no source; replaced with 40M+ users claim"
+  ],
+  "network_contacts_note": "none on record"
+}

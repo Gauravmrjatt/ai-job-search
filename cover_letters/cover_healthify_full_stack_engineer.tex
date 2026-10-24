@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Healthify, Full Stack Engineer
+% Bengaluru, Karnataka, India
+% Compile with: xelatex -interaction=nonstopmode cover_healthify_full_stack_engineer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one, and
+% break on an \mbox{} so there is always a line to end (a bare \\ after the
+% closing group errors with "There's no line here to end").
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Hiring Manager,}
+
+\lettercontent{I am applying for the Full Stack Engineer position in Bengaluru. The front half of this role, React, TypeScript, JavaScript, and Next.js frontend architecture, is my primary stack: for over three years as a freelance full-stack developer I have shipped production applications end-to-end, from schema and API design through rendering and state in the client to deployment and monitoring.}
+
+\lettercontent{Your homepage states that Healthify and Berry Street are coming together to build an insurance-covered AI metabolic health platform, and your app is trusted by more than 40 million users. Features like Coach Ria and HealthifySnap sit on exactly the layer I work in: polished, responsive user experiences over dependable APIs and background processing. What I would bring to that stack:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Frontend architecture and performance:} production Next.js 16 and React 19 clients, including a TypeScript client over a 145-endpoint logistics platform that has processed 1,000+ orders, and live leaderboards updating over WebSockets in a quiz platform shipped to partners.
+    \item \textbf{APIs, background jobs, and caching:} REST APIs of 145 and 107 endpoints, GraphQL subscriptions fed by Kafka and Redis pub/sub, a RabbitMQ payout queue so slow jobs never block requests, and Redis-cached hot reads.
+    \item \textbf{End-to-end ownership:} Docker, GitHub Actions CI/CD, AWS EC2, and NGINX deployments I ran myself, with Prometheus, Grafana, Loki, and Sentry watching production, and an automated test suite maintained alongside ongoing changes.
+\end{itemize}\par}
+
+\lettercontent{To be plain about the must-have list: I do not have production Python, Django or FastAPI experience yet, and the backend I have run in production is Node.js in the same problem space, async services under high concurrency with RabbitMQ queues, Redis caching and system design decisions that port directly. I have not shipped LLM or AI-agent features into a product and have not used LangChain or LiteLLM; I do use AI-assisted development tools daily, so building alongside AI is familiar even though shipping intelligent workflows into a product is new for me. I have not worked from Figma handoffs on a product team; my frontend experience is building polished interfaces directly in Next.js, React, and Tailwind, in production and in national frontend competitions, so translating a design handoff into code is new to me even though building polished interfaces is not.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and will relocate to Bengaluru for your HAL 3rd Stage office.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

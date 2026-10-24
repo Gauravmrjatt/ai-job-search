@@ -1,0 +1,30 @@
+{
+  "company": "Clueso",
+  "fetched": "2026-10-22",
+  "role_target": "Full Stack Engineer (Frontend-Heavy)",
+  "apply_route": "https://www.clueso.io/careers/full-stack-engineer (Apply Now, live as of 2026-10-10; posting dated 2026-07-14)",
+  "sources": {
+    "posting": "documents/applications/clueso_full_stack_engineer/job_posting.md (lets-code.co.in, dated 2026-07-20)",
+    "company_site": "https://www.clueso.io (fetched 2026-10-10), https://www.clueso.io/careers, https://www.clueso.io/careers/full-stack-engineer",
+    "ycombinator": "https://www.ycombinator.com/companies/clueso (Winter 2023 batch, founded 2023, team size 25, Bengaluru; founders Akash Anand, Prajwal, Neel Balar)",
+    "press_launches": "YC launch posts (Clueso Agents, 2026): agent screen-records products, MCP integration with Claude/ChatGPT/Cursor"
+  },
+  "facts": [
+    "Clueso is a Y Combinator Winter 2023-backed startup founded in 2023 and based in Bengaluru (HSR Layout office); core team around 25 (YC profile); founders Akash Anand, Prajwal, and Neel Balar.",
+    "Product: turns screen recordings, slide decks, docs, or prompts into polished product videos plus step-by-step documentation, articles, and SOPs; AI handles script, voiceover, zoom effects, branding, and captions.",
+    "Raised a $10M Series A (site banner, October 2026).",
+    "Traction claims on their own site: over 1,000 SaaS companies use it; 300,000+ videos created in the past 6 months; #1 Product of the Month on Product Hunt; 4.9 rating on G2.",
+    "Enterprise customers shown on their site: Zendesk, Smartsheet, UiPath, ServiceTitan, RingCentral, Samsara, Zoho, GitLab, Fireflies.ai, Keyfactor, Perdue Farms, Total Quality Logistics, Gainsight, Seismic.",
+    "Clueso Agents automate the entire video production pipeline: a browser agent logs into the product, navigates workflows, screen-records features, then AI edits; every release can trigger new content.",
+    "Clueso MCP lets users build workflows in Claude, ChatGPT, Cursor or other AI clients to create and edit videos from their existing automations.",
+    "Localization across 150+ languages per site FAQ (site says both 80+ and 150+ on different pages - avoid the number).",
+    "Perks: catered meals (lunch and dinner except Sundays) and team offsites (last one in Vietnam).",
+    "Role: frontend-heavy full-stack ownership of the Articles/SOP rich-text editor (TipTap/ProseMirror), editor schemas, nodes, marks, plugins; AI-powered editing workflows (rewriting, expansion, auto-formatting, structured generation); templates and reusable content blocks; REST APIs, data models, backend collaboration; end-to-end product ownership with founders and designers.",
+    "Posting qualifications: 0-2 years or equivalent proof of work; strong React and frontend fundamentals; production web applications; open-source contributions valued; hands-on TipTap or ProseMirror sought."
+  ],
+  "claims_forbidden": [
+    "TipTap or ProseMirror experience (candidate has none - never claim; honest positioning only)",
+    "collaborative editing or version-history systems experience",
+    "any company fact not listed above"
+  ]
+}

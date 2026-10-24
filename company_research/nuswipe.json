@@ -1,0 +1,32 @@
+{
+  "company": "NuSwipe Technology Pvt. Ltd.",
+  "role_applied": "Frontend Developer - React.js / Next.js",
+  "fetched": "2026-10-22",
+  "sources": [
+    "https://nuswipe.in/ (fetched, full page)",
+    "https://nuswipe.in/careers/ (fetched, full page)",
+    "search snippets only (not fetched): LinkedIn company page, Tracxn legal-entity page, IndiaMART seller profile, co-founder LinkedIn"
+  ],
+  "verified_facts": {
+    "what_they_do": "Self-described tech-driven gifting and rewards company: digital gift cards, employee rewards & recognition, channel partner rewards/loyalty, customer rewards & engagement, sales performance campaigns, gamified engagement, and customised corporate merchandise gifting (Diwali kits, t-shirts, laptop bags, onboarding kits).",
+    "scale_signals": "Homepage: 'Explore 450+ Brands'; about copy: '500+ leading brand gift cards' (inconsistent counts); merchandise catalog 'over 4000 products'; testimonials mention 700+ employee gift deliveries and scheduled auto-delivery.",
+    "products": "Products menu lists B2B Reward Platform and B2C Reward Platform as 'Coming Soon'; Employee R&R Suite, Channel Partner Reward Platform, and a 'Unified Rewards API' are live pages. Serves 'startups to enterprises across India'.",
+    "careers": "Careers page shows active roles: Mobile App Developer (Gurugram), React.js Developer under 'Frontend Development' (Gurugram), Full Stack Developer (Gurugram & Delhi), plus finance/marketing/sales roles. Mobile-app hiring matches the posting's Flutter preference.",
+    "leadership": "Co-founder: Sarthak Chaudhary (LinkedIn snippet; vision stated as simplifying corporate gifting, gift cards, rewards, employee engagement).",
+    "age_location": "Operating since ~2022 (Tracxn and IndiaMART snippets agree); HQ Gurugram (Tracxn). Posting's Aerocity New Delhi office is unverified from site."
+  },
+  "unverified": [
+    "Team size, engineering team composition, and any team names",
+    "Funding status beyond a Tracxn 'Unfunded' tag; revenue",
+    "Actual production tech stack: their own marketing site is WordPress/Elementor; no public evidence of their React/Next.js platforms",
+    "Named enterprise clients (all testimonials are anonymized personas, e.g. 'Retail Co.')",
+    "Salary, exact posting date, who reviews applications"
+  ],
+  "red_flags": [
+    "Core B2B/B2C reward platform pages are 'Coming Soon': the frontend dev may be building these from scratch with undefined process, and the public site shows typos/duplicated nav links (small-team reality).",
+    "Posting says '3+ years' but freehire lists seniority as 'Entry level' - possibly a funded-on-budget role; salary not stated.",
+    "Anonymized testimonials mean client-brand claims cannot be verified.",
+    "Tracxn shows an unfunded, ~4-year-old small company; stability and growth depend on the merchandise/gifting revenue side."
+  ],
+  "culture_notes": "Small, sales- and gifting-led company actively standing up an engineering team in 2026 (CTO, Software Architect/Technical Lead, full-stack, frontend, mobile roles all posted recently). Engineering appears to report into a new Technical Lead / Full Stack Architect (named in the posting). Likely hands-on, ship-fast product building with direct founder access; formal frontend process (code review, QA culture) probably still forming."
+}

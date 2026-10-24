@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - RocketPay, Back End Developer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+\currentdate{\today}
+\lettercontent{Dear RocketPay Hiring Team,}
+
+\lettercontent{I am applying for the Back End Developer role in Bengaluru. I have built and maintained production backend systems in Node.js and TypeScript for over three years as a freelance developer, and the scope you describe, working on the shared backend and platform team to build services that power financial infrastructure, matches the kind of server-side ownership I have been doing.}
+
+\lettercontent{What I would bring to your backend services:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Node.js and TypeScript in production:} I designed and built a 145-endpoint Express.js/Prisma/PostgreSQL backend (23 models, 1,000+ orders processed) with wallet and transaction ledgers, webhook processing, automated payouts, and scheduled refund workflows. Open source at github.com/Gauravmrjatt/cheapship (about 59,000 lines).
+    \item \textbf{Financial infrastructure and payments:} I implemented Razorpay payment signature verification on every callback, KYC-gated order paths, automated payouts, and scheduled refund workflows. Reconciling state after partial failures (expired Firebase OTP tokens, rate limits) is work I do regularly.
+    \item \textbf{Queue and worker systems:} I built a RabbitMQ payout queue with retry-safe consumers and idempotent job processing, so slow payouts never block requests. I have also worked with Redis pub/sub and caching, Node.js Cluster, and fault-tolerant async services for high-concurrency events.
+    \item \textbf{Third-party API integration:} I integrated Shiprocket, Razorpay, and Firebase OTP into one system, handling rate limits, pagination, and webhook delivery.
+    \item \textbf{PostgreSQL depth and DevOps:} My primary database is PostgreSQL with Prisma. I containerize services with Docker, run CI/CD with GitHub Actions, and deploy on AWS EC2 and Linux with NGINX, with monitoring via Prometheus, Grafana, Loki, and Sentry.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I am drawn to RocketPay because you build infrastructure that helps businesses prevent payment defaults before they happen. My work on payment flows, ledgers, refunds, and payouts maps directly to the reliability and correctness that collections and recovery workflows depend on.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and am open to relocating to Bengaluru.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

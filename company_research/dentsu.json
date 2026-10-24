@@ -1,0 +1,14 @@
+{
+ "company": "Dentsu Global Services",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://www.dentsu.com/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: dentsu is 'The integrated growth and transformation partner to the world's leading organizations' (self-description, homepage 'We are dentsu'), operating an integrated network of agencies with a global country list including India. VERIFIED: 'Dentsu Global Services' is a named unit in the site's main navigation (alongside 'Our agencies', 'Our leadership', 'Our work', 'Solutions', 'Careers') - it is dentsu's global services arm. Homepage claim used only if needed: 'innovating to impact'. Do NOT invent office counts, revenue, or headcount - none verified here."
+  },
+  "posting": {
+   "url": "https://in.linkedin.com/jobs/view/mern-developer-graphql-at-dentsu-glo-4474210587",
+   "notes": "LinkedIn detail fetched 2026-10-10 via linkedin-search detail 4474210587. Role title in posting: 'MERN Developer/ Senior Software Engineer' (track as 'MERN Developer (GraphQL)'). Experience Range: 3-5 Years. Location: Bangalore, Pune, Mumbai. Must: 'strong hands-on experience with MongoDB, React.js, Node.js, TypeScript, GraphQL, NestJS, plus a solid understanding of software design principles'; 'skilled MERN developer with 3-5 years of experience in building scalable, high-quality web applications'. Responsibilities: develop/maintain scalable apps with MERN stack, NestJS, GraphQL; work independently with broader understanding of objectives/architecture; requirements analysis, solution design, development, unit testing, debugging, documentation; clean code aligned with SOLID principles; design and implement APIs using REST and GraphQL; MongoDB/Mongoose and SQL/NoSQL; troubleshoot with guidance; collaborate cross-functionally. Employment type full-time, active, posted 2026-10-04."
+  }
+ }
+}

@@ -1,0 +1,78 @@
+                     Gaurav Chaudhary
+                                       Mathura, Uttar Pradesh, India
+
+           Phone: +91-8077598311 | Email: gauravmrjatt4@gmail.com | LinkedIn | GitHub | Portfolio
+
+
+Frontend-leaning Full-Stack Developer specializing in React 19, Next.js 15/16, and TypeScript with three years
+of shipping production user experiences. Built Data Vault (80 React components, chunk-based encrypted storage,
+real-time search) and TicketHub (Next.js 15 + React 19) - modern, performant interfaces with complex state
+management. Strong DSA foundation (LeetCode 1,430) and backend fluency (Node.js, Express, GraphQL,
+RabbitMQ, Kafka) for full-stack ownership. Open to relocation to Bengaluru. B.Tech CSE expected 2027.
+
+Education
+GLA University                                                                     Mathura, India
+B.Tech, Computer Science and Engineering                                                 2023-2027
+In progress, expected 2027. Coursework: Data Structures & Algorithms, OOP, DBMS, Operating Systems,
+Computer Networks.
+
+Core Competencies
+Frontend: React 19, Next.js 15/16, TypeScript, React Hooks, Zustand, TanStack Query, Tailwind CSS,
+Material UI, Three.js | State & Data: Complex client state (Zustand, TanStack Query), GraphQL (Apollo,
+WebSocket subscriptions), REST, Prisma, Zod | Backend: Node.js, Express.js, RabbitMQ, Kafka, Redis,
+WebSockets, JWT, OAuth, payment integrations (Razorpay, Shiprocket) | Data: PostgreSQL, MongoDB,
+MySQL, Redis; Prisma, Mongoose | DevOps & Observability: Docker, NGINX, GitHub Actions CI/CD, AWS
+EC2, Linux, Prometheus, Grafana, Loki, Sentry | Testing: Automated unit and integration suites (10-file test
+suite on production platform)
+
+Professional Experience
+Cashbackwallah - Remote / client project
+Freelance Full-Stack Developer                                                          Jan 2026 - Aug 2026
+• Built and deployed a production logistics platform from scratch (Next.js, TypeScript, Express.js, Prisma,
+  PostgreSQL): courier rate comparison, shipment booking, order management, multi-level franchise commission
+  system - 1,000+ orders processed.
+• Designed and implemented the Next.js 16 frontend with React 19: responsive dashboards, real-time order
+  tracking, franchise onboarding flows, and wallet/ledger UIs using Tailwind CSS and Zustand.
+• Integrated Shiprocket, Razorpay, Firebase OTP, Redis, and Sentry: payment signature verification, KYC-gated
+  orders, automated payouts, webhook processing, scheduled refund workflows.
+• Handled end-to-end deployment and DevOps; open-source codebase of about 59,000 lines with 145 REST
+  endpoints and 23 Prisma models. Demo: cashbackwallah.com; Repo: github.com/Gauravmrjatt/cheapship
+Dream10.in - Remote / client project
+Freelance Full-Stack Developer                                                            Mar 2025 - Nov 2025
+• Shipped a production real-time quiz platform to partners (Next.js, Node.js, Redis, RabbitMQ, WebSockets):
+  live leaderboards, anti-cheat mechanisms, automated payment and payout processing.
+• Built the real-time frontend experience: WebSocket-driven live leaderboards, contest timers, and partner-facing
+  dashboards with sub-second updates under high concurrency. Demo: dream10.in
+Lead Tracking System - Remote / client project
+Freelance Full-Stack Developer (Ongoing Maintenance)                                   May 2023 - Present
+• Built and maintain a production affiliate lead-tracking platform: real-time dashboards, automated fraud
+  detection, webhook/postback handling, payment processing, Telegram alerts, role-based access control.
+• Scaled background processing with RabbitMQ, Redis, and Node.js Cluster; payout queue keeps slow payouts
+  off the request path; production monitoring with Prometheus, Grafana, and Loki.
+• Maintains the open-source codebase (31,000 lines, 107 REST endpoints, 12 models, 10-file automated test
+  suite, Redis-cached hot reads). Demo: panel5.logicpay.in
+
+Selected Projects
+• Data Vault (Mar 2025): privacy-focused file manager (Next.js, Node.js, MongoDB, Telegram Bot API) with
+  80 React components, chunk-based encrypted storage, resumable uploads, secure sharing, search,
+  pagination, and folder organization. Demo: datavault-two.vercel.app; Repo:
+  github.com/Gauravmrjatt/datavault
+• TicketHub (2025): Next.js 15 + React 19 ticketing application with 16 endpoints and 5 Prisma models;
+  modern app router, server components, and Tailwind CSS styling. Demo: ticket-hub-ten.vercel.app
+• CodeLab (Jun 2025): collaborative coding platform with Docker-sandboxed judge (Node, Python, Java,
+  C++), CRDT-based real-time multi-user editing over WebSockets (Yjs), contest management; 32,000 lines.
+  Demo: codelab.logicpay.in
+• School (Nov 2025 - Present): school management API using Apollo GraphQL with WebSocket subscriptions
+  over 10 Prisma models; Kafka event streaming, Redis pub/sub. Repo: github.com/Gauravmrjatt/School
+• OSM Fortress (May 2026): gift-code distribution service with proof-of-work gating, anti-scraping layers,
+  device fingerprints; 66 routes, 58,000 lines. Repo: github.com/Gauravmrjatt/osm-forest
+• NEET Counsellors (Jun - Aug 2026): counselling platform (Next.js, Payload CMS) plus rule-based college
+  predictor pipeline (rank, category, quota to college list). Repo: github.com/Gauravmrjatt/neet
+
+Honors and Awards
+• AWS Cloud Computing Certification - JOVAC, GLA University & Technical Guftgu (2025).
+• Finalist - WebX Frontend Challenge (2024); 4th place - WebForge national web development competition
+  (2025); 4th place - Code Arambh (2024).
+• LeetCode - 1,430 contest rating.
+Languages: Hindi (native), English (professional working proficiency).
+

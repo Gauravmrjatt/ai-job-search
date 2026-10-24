@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Seismic, Software Engineer I (Backend, AI Interfaces)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one, and
+% break on an \mbox{} so there is always a line to end (a bare \\ after the
+% closing group errors with "There's no line here to end").
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+% No page number footer - wastes space and adds noise to ATS extraction
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Seismic Hiring Team,}
+
+\lettercontent{I am applying for the Software Engineer I (Backend, AI Interfaces) role at Seismic in Hyderabad. I have built and maintained production backend systems in Node.js and TypeScript for over three years as a freelance developer, and backend services with cloud deployment are exactly the server-side ownership I have delivered for clients. I am open to relocating to Hyderabad.}
+\lettercontent{What I would bring to your backend services:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Node.js and TypeScript in production:} I designed and built a 145-endpoint Express.js/Prisma/PostgreSQL backend (23 models, 1,000+ orders processed) with wallet and transaction ledgers, webhook processing, automated payouts, and scheduled refund workflows. The codebase is open source at github.com/Gauravmrjatt/cheapship (about 59,000 lines).
+    \item \textbf{Queue and worker systems:} I built a RabbitMQ payout queue with retry-safe consumers and idempotent job processing, so slow downstream calls never block requests. I have also worked with Redis pub/sub, Node.js Cluster, and fault-tolerant async services for high-concurrency events.
+    \item \textbf{Cloud and DevOps:} I containerize services with Docker, run CI/CD with GitHub Actions, and host on AWS EC2 and Linux with NGINX. I also set up observability with Prometheus, Grafana, Loki, and Sentry on production systems.
+    \item \textbf{Databases and query work:} My primary database is PostgreSQL with Prisma (23 and 12 model schemas), with indexes and Redis-cached hot reads.\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{One area I want to be direct about: my hands-on experience with AI and machine-learning systems is still early, and I have not shipped model-backed features in production. What I do have is the backend side of that work - clean API boundaries, reliable async pipelines, and state management - and I close gaps like these quickly on live systems.}
+\lettercontent{I am drawn to Seismic because you build an AI-powered platform that real sales teams depend on, so the backend must be correct, observable, and fast under load. That is the standard I already hold my own systems to.}
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

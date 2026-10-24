@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - CloudSEK, SDE Intern - Frontend
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% No page number footer - wastes space and adds noise to ATS extraction
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one.
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear CloudSEK Hiring Team,}
+
+\lettercontent{I am writing to apply for your SDE Intern - Frontend role. I have spent over three years building React and Next.js interfaces in TypeScript and modern JavaScript in production, shipped end to end from components through deployment, and I want to do that inside a product team.}
+
+\lettercontent{CloudSEK's work is why this posting stood out: building AI threat-intelligence products from XVigil to the AI-native AIVigil. Your careers page says opinions count even on the XVigil UI, and that is how I like to work: close to the product, where UI decisions get debated openly rather than handed down. The frontend problem that interests me most is making dense, fast-moving data readable at a glance. My live leaderboards, real-time tracking dashboards, and status-heavy order flows are the same class of interface, just pointed at threats instead of shipments.}
+
+\lettercontent{How I match what you are looking for:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{React in production:} two platforms shipped on Next.js and React, written in TypeScript and modern JavaScript, including real-time UIs over WebSockets and component-heavy dashboards.
+    \item \textbf{Component thinking and modern JavaScript:} Object-oriented JavaScript with ES6+ as my daily language; interfaces broken into reusable components with Zustand and TanStack Query handling state.
+    \item \textbf{Engineering rigor:} LeetCode 1,430 contest rating, Git workflows and CI/CD in daily use, and Claude Code as my development workflow for coding, testing, and debugging.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Two quick notes on gaps: WebPack, Babel, and Sass are not in my daily toolkit yet, since my builds run on modern React tooling, but they are a straightforward extension of what I already do; my CSS work has been Tailwind and Material UI rather than formal CSS architectures.}
+
+\lettercontent{On logistics: I can commit to the full 3-6 month duration, join immediately, and work from your Bengaluru office at least 4 days a week, relocating for the internship.}
+
+\lettercontent{I would welcome the chance to discuss how I would contribute to CloudSEK's frontend from day one.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

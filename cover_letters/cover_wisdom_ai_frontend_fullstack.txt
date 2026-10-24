@@ -1,0 +1,50 @@
+                            Gaurav Chaudhary
+                    gauravmrjatt4@gmail.com | +91-8077598311 | LinkedIn
+
+
+                                                                               October 24, 2026
+Dear WisdomAI hiring team,
+
+I am writing to apply for the Software Engineer (Frontend/Fullstack) role at WisdomAI. Your
+mission to transform complex data into actionable insights through Generative AI and modern
+user experiences aligns directly with my background: I have spent the last three years building
+production React/Next.js interfaces for data-intensive platforms - logistics, real-time quiz, and
+affiliate tracking - where frontend clarity directly drives user trust and business outcomes.
+
+My most relevant experience maps to your stack and challenges:
+
+
+   • Modern React/Next.js at scale: Built Data Vault (80 React components, Next.js, Tailwind
+     CSS) - a privacy-focused file manager with chunk-based encrypted storage, resumable
+     uploads, real-time search, and folder organization; TicketHub on Next.js 15 + React 19 with
+     App Router and server components.
+   • Complex client state & real-time UX: Delivered live leaderboards and anti-cheat UIs over
+     WebSockets (Dream10.in), real-time dashboards with Redis pub/sub (Lead Tracking
+     System), and CRDT-based collaborative editing (CodeLab, Yjs/WebSockets).
+   • Full-stack ownership for data products: Designed REST/GraphQL APIs, implemented
+     payment flows (Razorpay, signature verification, wallet/ledger), and ran DevOps (Docker,
+     GitHub Actions, AWS EC2, Prometheus/Grafana/Sentry) for platforms processing 1,000+
+     live orders.
+   • Strong CS fundamentals: LeetCode 1,430 contest rating; B.Tech CSE (expected 2027) with
+     coursework in Algorithms, DBMS, Operating Systems, and Computer Networks.
+
+WisdomAI's focus on Generative AI-powered analytics resonates with my interest in building
+interfaces that make complex data understandable. I have worked extensively on dashboards
+and data visualization for logistics and affiliate platforms where the frontend must surface
+insights from high-volume event streams - the same class of problem your platform solves. I
+am open to relocating to Bengaluru for this role.
+
+I bring a product-minded approach: I care about the user's mental model, not just the
+component tree. Whether it's designing a franchise onboarding flow that reduces drop-off or a
+real-time leaderboard that feels instant under load, I optimize for the experience first and the
+implementation second. I would welcome the chance to contribute to WisdomAI's frontend as
+you scale the platform.
+
+I look forward to hearing from you.
+
+
+Kind regards,
+
+
+Gaurav Chaudhary
+

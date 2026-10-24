@@ -1,0 +1,19 @@
+{
+  "company": "Bibha.ai (Bibha AI Labs Private Limited) vs Mastek - employer unresolved",
+  "fetched_date": "2026-10-23",
+  "employer_mapping_finding": {
+    "listing_label": "Bibha.ai (himalayas.app/companies/bibha-ai, also expatjobs.io 'BA Bibha.ai', both copied W-2026-10-19)",
+    "posting_body_overview": "verbatim Mastek boilerplate (enterprise digital & cloud IT services, 40 countries)",
+    "conclusion": "Aggregator mis-mapping, not a genuine Bibha.ai/Mastek tie: Bibha.ai is a 13-24-person AI startup; Mastek is a separate listed IT services major. No 'Backend Node.js Developer' requisition found on careers.mastek.com (searched 2026-10-23). Mastek careers site carries an active 'recruitment scams' warning, so verify the application channel before applying.",
+    "draft_consequence": "Both drafts correctly make no employer-specific claims; keep until the human confirms the real employer"
+  },
+  "verified_facts": {
+    "bibha": "Bibha AI Labs Private Limited, incorporated 11 Oct 2024, HQ Bangalore per bibha.ai/about (edu.bibha.ai claims Palo Alto HQ with dev centers Bangalore + Pathankot; sources conflict). CEO Prashant Kumar. ~13 employees (GetLatka, Jul 2025) / 24 official (Tracxn). Product: serverless AI cloud / AI workforce platform (agents, TalentFlow recruitment, ReachFar sales, PeachDesk voice).",
+    "mastek": "Mastek Limited (mastek.com), enterprise digital & cloud transformation IT services, 40 countries, GPTW-certified India/UK/US/KSA/UAE. Posting's overview text matches Mastek careers boilerplate, not any Bibha product."
+  },
+  "sources": {
+    "bibha_website": "https://bibha.ai/about (fetched 2026-10-23)",
+    "bibha_size": "https://getlatka.com/companies/bibha.ai ; https://tracxn.com/d/legal-entities/india/bibha-ai-labs-private-limited/...",
+    "mastek": "https://careers.mastek.com/search ; https://www.mastek.com/careers (recruitment-scams alert)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Netomi",
+  "fetched": "2026-10-22",
+  "role_target": "SDE I - Frontend",
+  "apply_route": "https://jobs.lever.co/netomi/cdeaeaff-68e0-4889-8bb6-a3b5e4a0819b",
+  "sources": {
+    "posting": "documents/applications/netomi_sde_i_frontend/job_posting.md (lets-code.co.in, dated 2026-06-29)",
+    "company_site": "https://netomi.com and https://netomi.ai (fetched 2026-10-10)",
+    "series_c": "BusinessWire 2026-04-30: Netomi Raises $110M (Accenture Ventures lead); Reuters 2026-04-30",
+    "series_b": "BusinessWire 2021-11-18 / WSJ 2021-11-17"
+  },
+  "facts": [
+    "Netomi is an enterprise agentic AI platform for customer experience (CX); a no-code platform for building, testing, deploying, and monitoring AI agents (build/train/test/deploy/monitor lifecycle).",
+    "Works with global brands including Delta Air Lines, United Airlines, MetLife, MGM Resorts, DraftKings, NBA, Paramount, Ingram Micro, WestJet, Brex, SodaStream, Equinox, Virgin Voyages, Coach; powers the United Airlines Chat AI in the United mobile app.",
+    "Founded 2015 by CEO Puneet Mehta; headquartered San Mateo, California; offices in New York, Toronto, and India; roughly 170 employees.",
+    "Raised $110M Series C (announced April 30, 2026) led by Accenture Ventures with Adobe Ventures, WndrCo, NAVER Ventures, Metis Strategy, and Fin Capital; more than $160M raised in total; early backers include Greg Brockman, Demis Hassabis, Mustafa Suleyman; Jeffrey Katzenberg joined the board.",
+    "Uses AI models from OpenAI, Anthropic, and Google to handle customer queries.",
+    "Named a Gartner Cool Vendor; recipient of a 2021 AI Breakthrough Award.",
+    "Posting bands the India remote front-end role at 18-20 LPA (posting fact only; never claim in letters).",
+    "Posting requirements: 1-3 years building UI-heavy features for a B2B SaaS application; mastery of JavaScript or TypeScript, HTML5, CSS3; React (posting says Vue.js or React or Angular); REST and Web Hooks knowledge; NodeJS backend experience is a plus; B.E./B.Tech in CS or related.",
+    "Posting responsibilities: ownership of key UI modules, front-end build and test systems, translating designs into high-quality code, reusable components and front-end libraries, API implementation with backend/data science/devops."
+  ],
+  "claims_forbidden": [
+    "GraphQL experience (listed among web services technologies but candidate has GraphQL skills-list-only exposure - skills list only, no depth claims)",
+    "Vue.js or Angular experience",
+    "any company fact not listed above"
+  ]
+}

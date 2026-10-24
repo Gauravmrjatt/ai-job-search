@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Plane Software, Inc., Software Engineer, Backend (Node.js)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+\currentdate{\today}
+\lettercontent{Dear Plane Hiring Team,}
+
+\lettercontent{I am applying for the Software Engineer, Backend (Node.js) role at Plane. I have built and maintained production backend systems in Node.js and TypeScript for over three years as a freelance developer, and the scope you describe, owning integrations, queues, and OAuth APIs that keep work systems synchronized, is exactly the kind of server-side ownership I want to do next.}
+
+\lettercontent{What I would bring to your backend services:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Node.js and TypeScript in production:} I designed and built a 145-endpoint Express.js/Prisma/PostgreSQL backend (23 models, 1,000+ orders processed) with wallet and transaction ledgers, webhook processing, automated payouts, and scheduled refund workflows. Open source at github.com/Gauravmrjatt/cheapship (about 59,000 lines).
+    \item \textbf{Queue and worker systems:} I built a RabbitMQ payout queue with retry-safe consumers and idempotent job processing, so slow payouts never block requests. I have also worked with Redis pub/sub, Node.js Cluster, and fault-tolerant async services for high-concurrency events.
+    \item \textbf{Third-party API integration:} I integrated Shiprocket, Razorpay, and Firebase OTP into one system, handling rate limits, pagination, webhook delivery, and tokens that expire at the worst moment. Reconciling state after partial failures is work I do regularly.
+    \item \textbf{OAuth and authentication:} I implemented JWT and Auth0-backed authentication with role-based access control, payment signature verification, and KYC-gated flows on one production platform. I have not yet worked on the provider side of OAuth.
+    \item \textbf{Postgres depth:} My primary database is PostgreSQL with Prisma. I can read a query, add an index, and explain why it helped. The logistics platform runs 23 Prisma models with Redis-cached hot reads.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I have not built an importer or migration tool yet, and I have not worked on the provider side of OAuth or a developer platform other people built apps against. I close gaps like these quickly on live systems, and I am eager to learn.}
+
+\lettercontent{I am drawn to Plane because you build in the open. Two of my production platforms are open source on GitHub (59,000 and 31,000 lines), and I am comfortable with public GitHub issues as a support channel.}
+
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

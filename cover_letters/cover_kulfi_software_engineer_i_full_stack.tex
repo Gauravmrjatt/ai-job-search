@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Kulfi, Software Engineer I - Product / Full-Stack
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 | \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \urlstyle{same}\href{https://github.com/Gauravmrjatt}{GitHub}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Kulfi hiring team,}
+
+\lettercontent{I'm applying for Software Engineer I in Product / Full-Stack. I build product features end to end across web, backend APIs, and data, and every platform I've shipped as a freelance developer was built, deployed, debugged, and maintained by me alone. That is the same bargain your posting describes: notice what is broken without waiting for someone else to notice it.}
+
+\lettercontent{Kulfi's setup is the one I work well in. The app has already passed 500,000 downloads on Google Play, and your site promises new games every week, a promise a small team keeps only by shipping small, complete features fast and keeping them healthy. Three years of solo ownership across three production systems has meant exactly that: ship small features fast, then be the person who keeps them running in production. Where my experience maps onto what you will hand me:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{End to end:} built cheapship from scratch at Cashbackwallah, a Next.js frontend over Express APIs and PostgreSQL with 145 endpoints and 23 Prisma data models; 1,000+ orders processed, with Razorpay payments, webhooks, and refund workflows handled through the edge cases.
+    \item \textbf{Tests and self-review:} maintain instant-panel, in production since 2023: 107 endpoints, Redis-cached reads, a RabbitMQ payout queue so slow payouts never block requests, and a 10-file test suite I run and extend.
+    \item \textbf{Real-time surfaces:} delivered live leaderboards and anti-cheat at Dream10, the same two-client synchronization your two-phone games across calls need; maintain Apollo GraphQL WebSocket subscriptions with Kafka on a school platform.
+    \item \textbf{Debugging across layers:} Sentry, Prometheus/Grafana, and queue logs go into every system on day one, so when a feature behaves badly I can trace it from client through network to backend and data before concluding where the bug lives. In your Flutter client plus API plus data stack, I would wire the same tracing from day one.
+\end{itemize}\par}
+
+\lettercontent{One honest gap: I have not built in Flutter or Dart yet. What I own is both sides of the API contract, and the transfer between web client and backend APIs and data is direct. I also pick up frameworks by building with them: Next.js, Apollo GraphQL, and Docker all went from first use to shipped work inside project timelines. On AI tools, I use Claude Code and similar assistants to move faster while remaining responsible for every line, and I can explain that code in your practical interview.}
+
+\lettercontent{I can work in person in Jayanagar, Bengaluru.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

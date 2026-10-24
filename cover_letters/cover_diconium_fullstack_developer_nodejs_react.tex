@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - diconium / Embitel Technologies, Fullstack Developer (NodeJs + React JS)
+% Bangalore, India (req JR101659)
+% Compile with: xelatex -interaction=nonstopmode cover_diconium_fullstack_developer_nodejs_react.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one, and
+% break on an \mbox{} so there is always a line to end (a bare \\ after the
+% closing group errors with "There's no line here to end").
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Hiring Manager,}
+
+\lettercontent{I am applying for the Fullstack Developer (NodeJs + React JS) role in Bangalore (JR101659). For over three years as a freelance developer I have built production systems with Node.js and TypeScript on the backend and React on the front, owning every step from schema and API design through deployment and monitoring. A backend-first full-stack scope is how I already work.}
+
+\lettercontent{Here is what I would bring to your engineering delivery:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{API design:} a 145-endpoint Express.js and TypeScript backend (Prisma, PostgreSQL) behind an open-source logistics platform that has processed 1,000+ orders, plus an Apollo GraphQL API with WebSocket subscriptions fed by Kafka and Redis pub/sub.
+    \item \textbf{Event-driven services:} a RabbitMQ payout queue and Node.js Cluster on a 107-endpoint lead-tracking platform, and fault-tolerant high-concurrency event handling on a real-time quiz backend (dream10.in).
+    \item \textbf{Auth \& payments:} JWT plus Auth0 for delegated login, so the OAuth flows in production are the provider's rather than hand-rolled, with role-based access control and Razorpay signature verification across wallets, ledgers, payouts, refunds, and webhook flows.
+    \item \textbf{Frontend \& reliability:} React with TypeScript, Zustand, and TanStack Query; Docker, GitHub Actions CI/CD, and Prometheus, Grafana, Loki, Sentry monitoring, with automated test suites in production.
+\end{itemize}\par}
+
+\lettercontent{About the parts of the posting I do not meet today: I have not worked on Microsoft Azure or Kubernetes. My cloud foundation is Docker, GitHub Actions and AWS EC2 on Linux, so containerization, pipelines and production operations are established practice, and App Services and AKS are their managed analogues. My framework is Express.js rather than NestJS, my state management is Zustand and TanStack Query rather than Redux, and my services have been event-driven modules of a single codebase rather than a distributed microservices architecture; all three are close patterns I would pick up fast. My delivery so far has been solo client work, so mentoring is a responsibility I am keen to grow into, and my code review so far means self-review and client sign-off.}
+
+\lettercontent{Embitel interests me because it operates at scale inside the Volkswagen Group: a 100 percent Group company since 2022 and part of the diconium group, with a CARIAD India unit that contributes to the Group's global vehicle software platforms. Building payment and logistics systems taught me to treat correctness and availability as the product itself, and that is the discipline I want to bring into vehicle-connected and digital commerce delivery at Group scale. I am based in Mathura, Uttar Pradesh, and would relocate to Bengaluru for this role.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

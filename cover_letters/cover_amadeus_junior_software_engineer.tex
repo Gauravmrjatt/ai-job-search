@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Amadeus, Junior Software Development Engineer
+% Bengaluru, India (On-site)
+% Compile with: xelatex -interaction=nonstopmode cover_amadeus_junior_software_engineer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Amadeus Hiring Team,}
+
+\lettercontent{I am applying for the Junior Software Development Engineer role in Bengaluru. I am a freelance full-stack developer with over three years of production delivery in TypeScript, Node.js, and React, and I am open to relocating to Bengaluru. Amadeus runs large-scale software for the travel industry, and booking, payment, and fulfillment flows are what I have spent those three years building.}
+
+\lettercontent{What I would bring to your engineering teams:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Large-scale backend systems:} I designed and built a logistics platform backend from scratch in Express.js, TypeScript, Prisma, and PostgreSQL: 145 REST endpoints, 23 database models, and 1,000+ orders processed, including a wallet and transaction ledger, automated payouts, and webhook processing.
+    \item \textbf{High-concurrency services:} I built fault-tolerant Node.js services for a real-time quiz platform on Redis, RabbitMQ, and WebSockets, with live leaderboards, anti-cheat checks, and retry-safe payment and payout processing under load.
+    \item \textbf{Software engineering fundamentals:} I am completing a B.Tech in Computer Science and Engineering (expected 2027) with coursework in data structures, algorithms, OOP, DBMS, operating systems, and computer networks, and hold a 1,430 LeetCode contest rating.
+    \item \textbf{End-to-end ownership:} as a solo freelancer I take a feature from schema and API through UI, integrations, Docker deployment, CI/CD, and monitoring with Prometheus, Grafana, and Sentry.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Travel runs on the same primitives as that logistics platform: comparison and quoting, booking and fulfillment, payment ledgers, and event-driven processing under real traffic. The travel domain would be new to me; the engineering is not.}
+
+\lettercontent{Freelance work means I own the schema, the API, the deployment, and the debugging when something breaks. On a team I would bring the same habits: smaller changes, tests on the risky paths, and metrics in place before traffic arrives.}
+
+\lettercontent{I would welcome the chance to walk through the code behind any of these projects.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - DigitalxNode, Junior UI Developer, Gurugram
+% Compile with: xelatex -interaction=nonstopmode cover_digitalxnode_junior_ui_developer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one, and
+% break on an \mbox{} so there is always a line to end (a bare \\ after the
+% closing group errors with "There's no line here to end").
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Hiring Manager,}
+
+\lettercontent{I am applying for the Junior UI Developer role at DigitalxNode in Gurugram. For over three years of freelance delivery I have built React and Next.js interfaces for products where state has to stay correct on screen: KYC-gated order steps, wallet and ledger views, live WebSocket leaderboards, fraud-detection dashboards, and role-based admin panels.}
+
+\lettercontent{How my work maps to your stack:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item {\textbf{React and Next.js:} React 19 and Next.js 15/16 in production, including a Next.js 16 client against a 145-endpoint backend, plus component libraries of 80, 63 and 45 components.}
+    \item {\textbf{Responsive UI and CSS:} Tailwind CSS and Material UI across consumer and admin surfaces, semantic markup, keyboard-usable components, and multi-device layouts shipped to live users.}
+    \item {\textbf{Store and data layer:} Zustand for client state and TanStack Query for server state, with cache invalidation in data-heavy dashboards and forms backed by Prisma and Mongoose.}
+    \item {\textbf{Collaboration and quality:} Chrome DevTools for layout and render work, Postman for API contracts, Git with GitHub Actions CI, and Sentry traces; shipped to live users with client and partner feedback over chat and calls.}
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{DigitalxNode builds modern, responsive and high-performance web and mobile applications, and the role's ask to collaborate with designers, backend developers, QA engineers and product teams matches how I have worked as a solo freelancer coordinating with clients and partners. I am based in Mathura, Uttar Pradesh, and am ready to relocate to Gurugram for an onsite role. My B.Tech at GLA University runs to 2027, and over three years of client delivery has already been scheduled around it.}
+
+\lettercontent{I work well in component-first codebases and care about loading, empty and error states, not just the happy path. I am comfortable owning a screen end to end from API contract to rendered UI, and I bring a data-structures foundation (LeetCode 1,430 contest rating) that helps with performance-sensitive rendering.}
+
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

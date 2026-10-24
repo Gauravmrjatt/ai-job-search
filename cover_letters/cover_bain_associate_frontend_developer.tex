@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Bain & Company, Associate (Frontend Developer)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it.
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://gauravmrjatt.vercel.app}{Portfolio}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Bain \& Company Hiring Team,}
+
+\lettercontent{I am applying for the Associate (Frontend Developer) role in the Customer Center of Excellence team in New Delhi. Over three years of freelance delivery I have built and shipped production React and Next.js frontends for clients end to end, and I am looking to bring that client-facing ownership into a consulting environment.}
+
+\lettercontent{Recent work that maps to the role:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Frontend for a live logistics platform (Cashbackwallah, cashbackwallah.com):} a Next.js 16 and TypeScript client integrated against 145 REST endpoints backed by 23 Prisma models, covering courier rate comparison, booking, order management, and a multi-level franchise commission flow with role-based access; 1,000+ orders processed.
+    \item \textbf{Admin dashboards maintained for 3+ years (panel5.logicpay.in, open source):} real-time dashboards, fraud alerts, and a role-based access control UI over a 107-endpoint API kept fast by Redis-cached hot reads.
+    \item \textbf{Real-time UI for Dream10.in:} live leaderboards and WebSocket-driven screens wired to automated payment and payout flows.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Bain's Customer CoE builds web applications for consulting clients, which is the work I have been doing as an independent developer: short iterations with a client, a demo, feedback, and the next slice shipped. I am comfortable owning a frontend from component design and state management through API integration, testing, and deployment, and I communicate trade-offs plainly to non-technical stakeholders. I am based in Mathura, Uttar Pradesh, and will relocate to New Delhi for this role.}
+
+\lettercontent{I bring a strong computer science foundation (B.Tech CSE, expected 2027; LeetCode 1,430 contest rating) and a frontend focus sharpened by a WebX Frontend Challenge finalist finish. I am particularly interested in applying my experience with dense, data-heavy interfaces (logistics dashboards, real-time leaderboards, role-based admin views) to the client-facing work at Bain.}
+
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

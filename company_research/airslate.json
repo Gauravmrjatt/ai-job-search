@@ -1,0 +1,28 @@
+{
+  "company": "airSlate",
+  "fetched_date": "2026-10-09",
+  "sources": {
+    "website": {
+      "url": "https://www.pdffiller.com/en/about.htm",
+      "notes": "Official About page (served at pdffiller.com/en/about.htm, titled 'About airSlate | pdfFiller'). Mission: 'Empowering anyone to digitally transform document workflows'. Headline stats: over 100 million users worldwide; 900 employees; 5 offices; 40+ integrations; 85,000 state-specific legal forms; 500 marketplace vendors. Values: Delivering the WOW factor; Excellence through evidence; Growth with purpose; Empowering others. Milestones timeline: 2008 first build of the PDF Editor released to the public; 2009 pdfFiller surpasses 3,000 users; 2011 team 1 to 15, first Boston office; 2012 10,000 customers; 2013 e-signature product added; 2015 over 6 million users; 2016 100 employees and 1% charity pledge; 2017 signNow added to portfolio; 2019 airSlate workflow automation platform launched; 2021 product portfolio services over 100 million users with 900 employees in five global offices; 2022 acquires DocHub and reaches unicorn status. Product suite named on page: airSlate no-code workflow automation, signNow eSignature, pdfFiller PDF creator/editor, US Legal Forms library. Compliance badges: SOC 2 Type II, CCPA, HIPAA, GDPR, PCI DSS. Note: https://www.airslate.com/about returned a JavaScript-only shell with no extractable body text on plain fetch, so the pdffiller.com About page was used as the official-source substitute."
+    },
+    "reviews": {
+      "url": "https://www.glassdoor.com/Reviews/airSlate-Reviews-E3182935.htm",
+      "notes": "Glassdoor: 3.6/5 from 119 reviews, 56% would recommend; subratings 3.8 work-life balance, 3.6 culture and values, 3.5 career opportunities, 3.6 compensation and benefits. Recent positive engineering review (Software Engineer, 2026-08-03) cites meaningful code reviews, attention to tests and architecture, initiative supported, flexible schedule, remote work, timely compensation. Recurring negatives across reviews (2024-2026): frequent layoffs/restructuring and IPO-driven cost cutting, below-market salary, slow promotion path, political stakeholder tension, legacy PHP alongside modern stack. Indeed shows 19 reviews with similar mixed picture. Reviews are anonymous self-reports: treat as sentiment leads, not facts about the specific pdfFiller team."
+    },
+    "linkedin": {
+      "url": "https://linkedin.com/company/airslate",
+      "notes": "LinkedIn company page: ~817 employees (size band 501-1000, monthly growth +0.9%), privately held, HQ Brookline, Massachusetts, founded 2006 (product launched 2008 as pdfFiller), homepage airslate.com, ~$104.8M annual revenue, workforce distributed across 23-24 countries including Ukraine, Poland, United States, Philippines, Spain; ~14,211 followers. Third-party aggregators give differing headcounts (highperformr 931; profile snippets 400-500 with -10% YoY), so treat total headcount as a range of roughly 400-930 depending on source and date. No airSlate personal connections of the candidate identified in this pass."
+    },
+    "media": {
+      "url": "https://www.forbes.com/sites/brucerogers/2022/09/14/evolutionary-biologist-builds-airslate-into-fast-growing-document-workflow-business/",
+      "notes": "Forbes 2022-09-14: airSlate headquartered in Boston, began life as PDFFiller in 2008, founded by Vadim Yasinovsky, Borya Shakhnovich joined as CEO and expanded it into document workflow. General Catalyst 2021-01-12 launch story: $40M investment, company over 800 employees at the time, 700,000+ paying customers, roughly $100M ARR, product suite built from pdfFiller and signNow. Kyiv Post 2021-01-15: $40M raise; founded in Ukraine in 2008 under the PDF Filler name; US-based since 2011. Boston Business Journal 2025-10-23: airSlate cut 170 jobs worldwide (had about 80 employees in Boston in 2023). AIN 2022-06-22: reached $1.25B valuation (unicorn) in 2022. Company blogs/aggregators note rebrand from PDFfiller to airSlate around 2019 and a leadership change in July 2025 with Vadim Yasinovsky returning as CEO."
+    }
+  },
+  "network_contacts_note": "No network contacts, referrals, or airSlate employee connections on record for this candidate. Interviews and Glassdoor posts are the only insider-perspective leads available; no conversation with anyone at the company has occurred, so no reference to a contact can appear in application materials.",
+  "posting_claims_not_independently_verified": [
+    "'10M+ monthly users' for pdfFiller: official materials state 'over 100 million users' for the whole airSlate product portfolio, not a pdfFiller-specific monthly figure; the 10M monthly number was not confirmed anywhere on official pages.",
+    "'team of 120+ building pdfFiller': no source found for a pdfFiller-team headcount; company-wide headcount sources range roughly 400-930, which neither confirms nor contradicts a 120+ person product team.",
+    "Role-level details in the posting (year-ahead roadmap, educational budget, duty rotation, engineers propose improvements, MCP server and AI assistant work, Poland tag) were not independently confirmed and must not be asserted as verified facts."
+  ]
+}

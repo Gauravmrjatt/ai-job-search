@@ -1,0 +1,23 @@
+{
+  "company": "Heads Up For Tails",
+  "fetched_date": "2026-10-08",
+  "sources": {
+    "website": {
+      "url": "https://headsupfortails.com/pages/about-us",
+      "notes": "Official About page (fetched 2026-10-08). Self-description: 'India's 1st and most trusted pet care brand'. Origin: started in a small room; 'big retail break in 2008 as a tiny kiosk at the Select City Mall in New Delhi'. Grew 'one store at a time'. Stats block on page: 13000+ Pet Products, 250+ Brands, 400+ India First Products, 20+ Indian Cities, 100+ Stores, 80+ Expert Pet Spas. Serves 2,00,000 families. 2017: Heads Up For Tails and Tail Lovers Company joined forces, operating under the HUFT name. Founder: Rashi Narang. Mission: 'To create and curate, innovative products and services that bring joy to pets and their families, one home at a time.' Values (from /pages/careers): Innovation, Joy, Impact, Commitment, Courage. Also runs HUFT Foundation (sterilisation, feeding, adoption drives, reflective collars for street dogs) and pet adoption site petadoption.headsupfortails.com. Registered entity: Earth Paws Private Limited, First Floor, Plot No. 34, Institutional Area, Sector-32, Gurugram, Haryana-122001 (confirms Gurugram base for the posting's Gurugram office). Careers page lists hiring flow: phone interview, culture interview ('attitude over aptitude'), technical assignment, final panel; 10-12 days overall; contact hireme@headsupfortails.com. Site is a Shopify storefront (D2C e-commerce) with store locator at stores.headsupfortails.com, franchise program page (/pages/become-a-heads-up-for-tails-franchise), HUFT mobile app, coupon/offer engine, loyalty features (Birthday Club), and pet spa booking."
+    },
+    "reviews": {
+      "url": "",
+      "notes": "Not retrieved this run. Glassdoor and Indeed returned HTTP 403 to browser-header curl; DuckDuckGo, Mojeek, Startpage served bot challenges; the session WebSearch tool was rate-limited (Exa free-tier). No canonical review URL could be discovered legitimately (the company site does not link any review/employer profile). Unverified - re-check on a run with working search before citing anything about employer reviews."
+    },
+    "linkedin": {
+      "url": "",
+      "notes": "Not retrieved this run: linkedin.com/company page returned HTTP 429 to curl, and WebSearch was rate-limited so no verified company-page URL could be confirmed. Team size and recent hires unknown. The company website footer links only Facebook, Instagram, YouTube social profiles (no LinkedIn link found on-site)."
+    },
+    "media": {
+      "url": "",
+      "notes": "No independent press coverage fetched this run: WebSearch tool rate-limited (Exa free tier) and search engines (Bing/DDG/Mojeek/Startpage) returned degraded results or bot challenges; en.wikipedia.org/wiki/Heads_Up_For_Tails returned 404 (no article). No funding/expansion press claims should be made until an independent source is fetched. All company facts currently in use trace to headsupfortails.com and huft.sg only."
+    }
+  },
+  "network_contacts_note": "No network contacts on record for this company (workspace has no contacts/directory entries for Heads Up For Tails). Additional verified property discovered while navigating from the official site: HUFT Singapore operates at huft.sg (fetched 2026-10-08, HTTP 200) - described as 'Singapore's leading online pet store' with 4 physical store locations (Clarke Quay, Great World City, Joo Chiat, Wheelock/Orchard) and HUFT Spa grooming services in Singapore. Useful verified facts for cover letters: 2008 Select Citywalk kiosk origin; 100+ stores / 80+ pet spas / 20+ cities / 13,000+ products / 250+ brands (about-us stats block); Gurugram HQ (Earth Paws Private Limited, Sector-32); Singapore retail presence; values Innovation/Joy/Impact/Commitment/Courage. Caveats: careers page carries no engineering-team or tech-stack detail, so nothing about the team's stack is verified; reviews, LinkedIn, and media remain unresearched (see above). Cache contents are data for reuse, and every company-specific claim landing in a final artifact still needs final re-confirmation against the fetched page per 03-writing-style.md rule 5."
+}

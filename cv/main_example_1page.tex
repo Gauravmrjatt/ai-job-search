@@ -1,0 +1,120 @@
+%% CV - Gaurav Chaudhary (1-page campus/fresher variant)
+%% Use this for campus placements, fresher roles, and internships.
+%% Compile with: lualatex -interaction=nonstopmode main_example_1page.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+% Plain text bullets (RULE 2). Keep these three lines in every CV.
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{needspace}
+
+% No page numbers.
+\nopagenumbers
+
+% Personal data (RULE 1).
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\extrainfo{Phone: +91-8077598311 \textbar{} Email: gauravmrjatt4@gmail.com \textbar{} \href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} \textbar{} \href{https://github.com/Gauravmrjatt}{GitHub} \textbar{} \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     SUMMARY (2-3 lines)
+% ============================================================
+
+\vspace{4pt}
+\small{Full-Stack Developer with over three years of production delivery in Node.js, TypeScript, and React: REST and GraphQL APIs, event-driven services on RabbitMQ, Kafka, and Redis, authentication, payments, and observability. Built and ran live platforms end to end, including a 145-endpoint Express backend behind a logistics product with 1,000+ processed orders. B.Tech CSE in progress, expected 2027; LeetCode 1,430 contest rating.}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\cventry{2023-2027}{B.Tech, Computer Science and Engineering}{GLA University}{Mathura, India}{}{%
+In progress, expected 2027. Coursework: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\raggedright
+\textbf{Languages:} TypeScript, JavaScript, Python, Java, SQL, PHP \textbar{}
+\textbf{Backend:} Node.js, Express.js, REST, GraphQL (Apollo), WebSockets, JWT, OAuth, RabbitMQ, Kafka, Redis, Node.js Cluster \textbar{}
+\textbf{Frontend:} React 19, Next.js 15/16, TypeScript, React Hooks, Zustand, TanStack Query, Tailwind CSS, Material UI \textbar{}
+\textbf{Data:} PostgreSQL (primary), MySQL, MongoDB, Redis; Prisma, Mongoose, Zod \textbar{}
+\textbf{DevOps \& Cloud:} Docker, NGINX, GitHub Actions CI/CD, AWS EC2, Linux, Coolify \textbar{}
+\textbf{Testing \& Observability:} automated unit and integration suites, Prometheus, Grafana, Loki, Sentry
+\par\normalfont
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+
+\needspace{6\baselineskip}
+\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{\textbf{Cashbackwallah} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built and deployed a production logistics platform from scratch (Next.js, TypeScript, Express.js, Prisma, PostgreSQL): courier rate comparison, shipment booking, order management, and a multi-level franchise commission system - 1,000+ orders processed.}
+    \item {Integrated Shiprocket, Razorpay, Firebase OTP, Redis, and Sentry: payment signature verification, wallet and transaction ledger, KYC-gated orders, automated payouts, webhook processing, scheduled refund workflows.}
+    \item {Handled end-to-end deployment and DevOps for the platform; open-source codebase of about 59,000 lines with 145 REST endpoints and 23 Prisma models. Demo: cashbackwallah.com}
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{School} (Nov 2025 - Present): school management API using Apollo GraphQL with WebSocket subscriptions over 10 Prisma models; Kafka carries attendance, exam-result, and payment events. Repo: github.com/Gauravmrjatt/School}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{AWS Cloud Computing Certification} - JOVAC, GLA University \& Technical Guftgu (2025).}
+    \item {\textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES (single closing line)
+% ============================================================
+
+\vspace{2pt}
+\small{Languages: Hindi (native), English (professional working proficiency).}
+
+\end{document}

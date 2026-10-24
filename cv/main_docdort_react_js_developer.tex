@@ -1,0 +1,150 @@
+%% CV - Gaurav Chaudhary
+%% Target: Docdort - React JS Developer, Bengaluru, India
+%% Compile with: lualatex -interaction=nonstopmode main_docdort_react_js_developer.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+% Plain text bullets (RULE 2). Keep these three lines in every CV.
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Gaurav Chaudhary - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.77]{geometry}
+\usepackage{needspace}
+
+% No page numbers: they interrupt ATS parsing and create phantom holes.
+\nopagenumbers
+
+% Personal data (RULE 1 and 7).
+\name{Gaurav}{Chaudhary}
+\address{Mathura, Uttar Pradesh, India}{}{}
+\extrainfo{Phone: +91-8077598311 \textbar{} Email: gauravmrjatt4@gmail.com \textbar{} \href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} \textbar{} \href{https://github.com/Gauravmrjatt}{GitHub} \textbar{} \href{https://gauravmrjatt.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     SUMMARY (2-3 lines - RULE 4)
+% ============================================================
+
+\vspace{4pt}
+\small{React JS Developer with three years of freelance delivery building production React and Next.js interfaces for responsive, scalable web apps across logistics, real-time quiz and affiliate tracking products. React 19 and TypeScript as the primary stack, with modern JavaScript (ES6+), Tailwind CSS and Material UI. B.Tech CSE in progress, expected 2027; open to relocation to Bengaluru.}
+
+% ============================================================
+%     EDUCATION (right after summary for student profile - RULE 5)
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\cventry{2023-2027}{B.Tech, Computer Science and Engineering}{GLA University}{Mathura, India}{}{%
+In progress, expected 2027. Coursework: Data Structures \& Algorithms, OOP, DBMS, Operating Systems, Computer Networks.}
+
+% ============================================================
+%     CORE COMPETENCIES (compact labelled block - RULE 4)
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\raggedright
+\textbf{React.js / Modern JavaScript:} React 19 and Next.js 15/16 in production - hooks, component lifecycle, client routing, and reusable component libraries (80-component Data Vault, 63-component portfolio, 45-component Tod AI) \textbar{}
+\textbf{JavaScript and TypeScript:} modern JavaScript (ES6+) and TypeScript as the primary languages across every shipped codebase, including a 59,000-line Next.js 16 client and a 31,000-line tracking platform, with typed props and API contracts \textbar{}
+\textbf{Responsive Web Apps:} Tailwind CSS and Material UI for multi-device layouts across consumer and admin surfaces; HTML5 and CSS3 \textbar{}
+\textbf{State Management:} Zustand for client state and TanStack Query for server state; React Context and hooks \textbar{}
+\textbf{Scalable Products:} front ends wired to backends of 145 and 107 REST endpoints; role-based views; explicit loading, empty and error states; async data flow and error handling \textbar{}
+\textbf{Testing \& Quality:} a 10-file automated test suite on a live platform; GitHub Actions CI/CD; Sentry and Prometheus/Grafana for production debugging \textbar{}
+\textbf{Tooling \& DevOps:} Git, Docker, Redis caching; LeetCode 1,430 contest rating
+\par\normalfont
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE (RULE 7)
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+
+% --- Most Recent Role ---
+\needspace{6\baselineskip}
+\cventry{Jan 2026 - Aug 2026}{Freelance Full-Stack Developer}{\textbf{Cashbackwallah} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Built the production front end in Next.js 16 and TypeScript for a logistics platform (1,000+ orders processed): courier rate comparison screens, shipment booking flows, order tables with filters and pagination, and franchise commission dashboards. Demo: cashbackwallah.com}
+    \item {Integrated the React client with a 145-endpoint Express backend: wallet and transaction ledger views, payout and refund status screens, and explicit loading, empty and error states against live payment flows.}
+    \item {Managed client state and shared component patterns across customer, franchise and admin tiers, with Firebase OTP and JWT protected routes and role-differentiated views.}
+    \item {Kept money-touching screens correct rather than merely rendered: KYC-gated order steps, Razorpay signature-verified payment states, and error handling that never leaves a balance or ledger view inconsistent. Open source: github.com/Gauravmrjatt/cheapship}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Previous Role ---
+\needspace{6\baselineskip}
+\cventry{Mar 2025 - Nov 2025}{Freelance Full-Stack Developer}{\textbf{Dream10.in} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Shipped the real-time quiz front end in Next.js and JavaScript for partner platforms: live leaderboards streamed over WebSockets, question timers, answer flow states, anti-cheat surfaces and result screens. Demo: dream10.in}
+    \item {Built reusable component primitives (question cards, timer bars, score panels, modal dialogs) shared across partner-branded builds, with responsive layouts that held up on mobile and desktop.}
+    \item {Tuned the update path for high-concurrency events so score panels stayed consistent and interactive; owned CI/CD deployment and production debugging.}
+\end{itemize}}
+
+\vspace{2pt}
+
+% --- Earlier Role ---
+\needspace{6\baselineskip}
+\cventry{May 2023 - Present}{Freelance Full-Stack Developer (Ongoing Maintenance)}{\textbf{Lead Tracking System} - Remote / client project}{}{}{%
+\begin{itemize}
+    \item {Originally built in 2023 and still maintain the interfaces of an affiliate lead-tracking platform: real-time dashboards, lead tables with filters, automated fraud-detection views, webhook/postback status screens and Telegram alert settings. Demo: panel5.logicpay.in}
+    \item {Built role-based access control views for admin, partner and client tiers, so the same data layer renders different permitted surfaces without duplicated components.}
+    \item {Maintain a 31,000-line open-source codebase (107 endpoints) for extensibility: a 10-file automated test suite, Redis-cached hot reads and a RabbitMQ payout queue, with Prometheus, Grafana and Loki for monitoring. github.com/Gauravmrjatt/instant-panel}
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{Data Vault} (Mar 2025): privacy-focused file manager in Next.js, an 80-component build with encrypted chunked storage, resumable upload progress, secure sharing, search, pagination and folder organisation. Demo: datavault-two.vercel.app}
+    \item {\textbf{CodeLab} (Jun 2025): browser code editor with CRDT-based real-time multi-user editing (Yjs), customizable layouts, contest timers and invite-based collaboration rooms over WebSockets; about 32,000 lines. Demo: codelab.logicpay.in}
+    \item {\textbf{TicketHub and EcoFinds}: TicketHub in Next.js 15 with React 19 (16 endpoints, 5 models) and EcoFinds, a live marketplace front end, both built as component-first responsive interfaces.}
+    \item {\textbf{Portfolio} (2025): personal site in Next.js with a 63-component library, responsive navigation, project case studies and contact flows. Live: gauravmrjatt.vercel.app}
+    \item {\textbf{Tod AI} (2025): task and note-taking app with a 45-component interface, live in production.}
+\end{itemize}
+
+% ============================================================
+%     HONORS AND AWARDS
+% ============================================================
+
+\section{Honors and Awards}
+\vspace{1pt}
+\begin{itemize}
+    \item {\textbf{Finalist} - WebX Frontend Challenge (2024), a frontend competition run by a competitive coding community.}
+    \item {\textbf{4th place} - WebForge (2025), national-level web development competition; \textbf{4th place} - Code Arambh (2024).}
+    \item {\textbf{AWS Cloud Computing Certification} - JOVAC, GLA University and Technical Guftgu (2025); \textbf{LeetCode} - 1,430 contest rating.}
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES (single closing line - RULE 5)
+% ============================================================
+
+\vspace{2pt}
+\small{Languages: Hindi (native), English (professional working proficiency).}
+
+\end{document}

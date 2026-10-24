@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Sangoma, Full Stack Developer (Node.js, TypeScript & React)
+% Bengaluru, Karnataka, India
+% Compile with: xelatex -interaction=nonstopmode cover_sangoma_full_stack_developer.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it. \closing adds two blank lines; keep one.
+\renewcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\[1pt]}\mbox{}\\ \normalfont}
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Sangoma Hiring Team,}
+
+\lettercontent{I am applying for the Full Stack Developer position in Bengaluru. I have built and maintained production web platforms as a freelance developer in Node.js, TypeScript, and React for over three years, and the posted scope, supporting business-critical applications on a global communications platform, is exactly the work I already do for my clients.}
+
+\lettercontent{What I would bring to your applications and backend services:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{REST APIs and background processing:} I maintain a lead-tracking platform with 107 REST endpoints and 12 models that handles payments around the clock; a RabbitMQ-based payout queue provides the same decoupling Redis and BullMQ are used for, so slow payouts never block requests.
+    \item \textbf{Real-time functionality:} I have shipped WebSockets in a production quiz platform (live leaderboards at dream10.in) and Apollo GraphQL WebSocket subscriptions fed by Kafka and Redis pub/sub in a school management API.
+    \item \textbf{Databases:} my production work is PostgreSQL and Prisma, including a 23-model logistics platform that has processed 1,000+ orders, built on hands-on MySQL from an earlier rewards platform.
+    \item \textbf{Reliability practices:} a 10-file automated test suite in production, Docker and GitHub Actions CI/CD, and Prometheus, Grafana, and Loki monitoring for troubleshooting live issues.
+\end{itemize}\par}
+
+\lettercontent{To be direct about two areas from the posting: my Kubernetes exposure is light (my deployments today are Docker and CI/CD pipelines on Linux servers), and my database depth centers on PostgreSQL rather than MySQL stored procedures. I list them plainly because I close tool gaps quickly on live systems; secure development is already part of my production work today: role-based access control, payment signature verification, KYC-gated flows, and automated fraud detection.}
+
+\lettercontent{You build software that organizations rely on to connect, collaborate, and serve their customers, and you do it partly in the open: Sangoma is the primary developer and sponsor of the open-source Asterisk and FreePBX projects. Much of my own production work lives in public GitHub repos for the same reason. Building payment and payout systems has taught me to treat correctness and availability as the product itself. I am also used to working directly with product owners and external service teams, iterating on feedback with distributed partners.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and will relocate to Bengaluru for your Richmond Town office.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\.
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

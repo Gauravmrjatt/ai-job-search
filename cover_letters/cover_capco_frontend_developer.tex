@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Capco, Frontend Developer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Class \signature appends a trailing \\ that adds a blank line and can spill the
+% last line; override without it.
+\renewcommand{\signature}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Gaurav Chaudhary}}{  \href{mailto:gauravmrjatt4@gmail.com}{gauravmrjatt4@gmail.com} | +91-8077598311 |  \urlstyle{same}\href{https://www.linkedin.com/in/gauravmrjatt}{LinkedIn} | \href{https://gauravmrjatt.vercel.app}{Portfolio}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Capco Hiring Team,}
+
+\lettercontent{I am applying for the Frontend Developer role in Pune. Over three years of freelance delivery I have built and shipped production React and Next.js frontends for clients end to end, which is the core of what this role asks for: modern, scalable, high-performance web applications.}
+
+\lettercontent{Recent production work that maps to the role:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
+\renewcommand{\labelitemiii}{\textbullet}
+\begin{itemize}
+    \item \textbf{Frontend for a live logistics platform (Cashbackwallah, cashbackwallah.com):} a Next.js 16 and TypeScript client integrated against 145 REST endpoints backed by 23 Prisma models, covering courier rate comparison, booking, order management, and a multi-level franchise commission flow with role-based access; 1,000+ orders processed.
+    \item \textbf{Admin dashboards maintained for 3+ years (panel5.logicpay.in, open source):} real-time dashboards, fraud alerts, and a role-based access control UI over a 107-endpoint API kept fast by Redis-cached hot reads.
+    \item \textbf{Real-time UI for Dream10.in:} live leaderboards and WebSocket-driven screens wired to automated payment and payout flows.
+    \item \textbf{Component libraries:} an 80-component file manager (Data Vault) and a 63-component personal site, built for reuse and consistency.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{Your posting asks for a Frontend Developer to build modern, scalable, high-performance web applications supporting large-scale digital transformation for global enterprises across banking, financial services, insurance, payments, and energy. That is the work I have done on every project: I chose the stack, designed the reusable components, and checked every change against its production consequences before shipping.}
+
+\lettercontent{Capco's consulting model, delivering digital solutions for financial-services clients, is the kind of environment where frontend ownership matters: clean component architecture, predictable state management with hooks, Context API, Zustand, and TanStack Query, and careful integration against REST APIs, with performance handled through caching and sensible loading states.}
+
+\lettercontent{I am based in Mathura, Uttar Pradesh, and am open to relocating to Pune for this role.}
+
+\begin{flushright}
+\closing{Kind regards,}
+
+\signature{Gaurav Chaudhary}
+\end{flushright}
+\end{document}

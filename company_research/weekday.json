@@ -1,0 +1,14 @@
+{
+ "company": "Weekday",
+ "fetched_date": "2026-10-10",
+ "sources": {
+  "website": {
+   "url": "https://www.weekday.works/",
+   "notes": "Official site fetched 2026-10-10 (HTTP 200). VERIFIED: Weekday is an AI-native outbound recruiting platform ('AI sourcing agent' that finds passive candidates and follows up over email, WhatsApp and phone; claims 50%+ response rate). VERIFIED: products for employers include subscription marketplace, contingency recruiting, free job post, AI Training, AI Resume Screener; candidate products include 'Browse jobs and AI apply', salary lookup, resume builder. VERIFIED: 'Trusted by hiring teams from both Seed/Series A startups as well as enterprises'; testimonials name Urbanpiper, Utopia Labs, Warpbuild (YC S21), Enterpret, Fuze Finance, Openwrench (YC S18). VERIFIED: 'we've spent the last four years perfecting the process'. IMPORTANT: the tracked posting is for ONE OF WEEKDAY'S CLIENTS - an unnamed insurance/fintech product company; the client is NOT identified anywhere in the posting. Never name or guess the client. Do not attribute Weekday's own site facts to the client."
+  },
+  "posting": {
+   "url": "https://apply.workable.com/j/63A1D73DF2",
+   "notes": "freehire detail fetched 2026-10-10 (slug full-stack-developer-weekday-1-4vxjmg7d) + Workable page meta 2026-10-10. Role: Full-stack Developer, 'This role is for one of Weekday's clients'. VERIFIED from Workable meta: Salary range Rs 1200000 - Rs 1800000 (INR 12-18 LPA); Min Experience 0+ years; Location Remote (India); JobType full-time. Requirements: (1) FullStack development with strong experience in ReactJS, Python, DB, CSS, HTML; (2) 'Experience in product company is mandatory'; (3) Strong in programming principles and usage of AI tools for development; (4) Proficiency in TypeScript, AWS Services is added advantage; (5) Strong communication skills. Responsibilities: insurance and fintech application configurations and development; web app development using ReactJS, Python etc.; willing to learn NextJS and API management. Must-have: ReactJS, Python, REST API. Good-to-have: MySQL."
+  }
+ }
+}

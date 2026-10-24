@@ -1,0 +1,24 @@
+{
+  "name": "diconium / Embitel Technologies (India) Pvt. Ltd.",
+  "fetched_date": "2026-10-23",
+  "sources": [
+    {"url": "https://www.embitel.com/about-us", "access_date": "2026-10-23"},
+    {"url": "https://www.embitel.com/press/embitel-journey-with-volkswagen-group", "access_date": "2026-10-23"},
+    {"url": "https://www.embitel.com/category/press", "access_date": "2026-10-23"},
+    {"url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-and-diconium-further-expand-their-corporation-17020", "access_date": "2026-10-23"},
+    {"url": "https://diconium.com/en/about-us", "access_date": "2026-10-23"},
+    {"url": "https://diconium.com/en/about-us/global-delivery", "access_date": "2026-10-23"},
+    {"url": "https://gcc.economictimes.indiatimes.com/news/people-culture/embitel-technologies-driving-volkswagens-software-revolution/131532415", "access_date": "2026-10-23"}
+  ],
+  "verified_facts": [
+    "Embitel Technologies is a 100% Volkswagen Group company since 2022 (embitel.com/about-us).",
+    "Embitel remains a subsidiary of the diconium group, and thus part of Volkswagen Group Sales IT (embitel.com press archives; About page names diconium Group CEO Jasmin Eichler).",
+    "diconium is itself a 100% Volkswagen Group company, originally acquired in stages: 49% Nov 2018, remaining 51% announced Jan 2020 (volkswagen-group.com press release).",
+    "Embitel has its corporate office in Bengaluru, with development centres in Ahmedabad, Pune and Coimbatore (EMbitel/PRNewswire Dec 2024 release).",
+    "CARIAD India is a dedicated Business Unit of Embitel operating as a GCC for CARIAD, contributing directly to Volkswagen Group's global vehicle platforms; the rebranding does not change Embitel's legal entity or ownership (embitel.com About page and July 2025 press note, ~400-member team).",
+    "Embitel works across automotive, embedded systems, connected mobility, digital transformation, vehicle connectivity, ADAS, Cloud & Connectivity, Infotainment, Data & AI (embitel.com/about-us).",
+    "diconium's core competence includes e-commerce / digital sales solutions: it developed Volkswagen's global online sales platform for digital services and on-demand vehicle functions (VW press release 2020; diconium.com About).",
+    "Embitel employs roughly 1,600 people with a Group-backed goal of 4,000 by 2030; ~30% of revenue comes from clients outside the VW ecosystem (ETGCC, June 2026).",
+    "Applications route through diconium's Workday tenant at diconium.wd3.myworkdayjobs.com/Embitel_Technologies (posting source URL)."
+  ]
+}
